@@ -119,3 +119,59 @@
 
 ### 🔄 Auto-ping Google Indexing API
 - Already implemented — pings Google within seconds of each publish
+
+---
+
+## Weekly Tweet Compilation Format (HIGH PRIORITY — targets "funny tweets" / "celebrity tweets" Google News)
+
+These are the articles that rank for "funny tweets," "celebrity tweets this week," etc.
+Yahoo publishes daily. BuzzFeed publishes weekly. We target 3x/week.
+
+### Schedule
+- **Monday**: "The [N] Best Celebrity Tweets From the Week of [Date]" — weekly roundup
+- **Wednesday**: "Funniest Celebrity Tweets You Need to See Right Now" — mid-week hits
+- **Friday**: "This Week's Most Viral Celebrity Tweets" — end-of-week wrap
+
+### Format Rules
+- 20-35 tweets minimum (this is what ranks — Yahoo gets #1 with 35)
+- Title MUST include a specific number: "25 Celebrity Tweets..." not "Some Celebrity Tweets..."
+- Include the date range in the title or description for freshness signal
+- Minimal commentary — 1 sentence MAX per tweet (the tweet IS the content)
+- Group loosely by theme if possible (VS show, sports, random funny, petty, etc.)
+- Category: Drama or Feuds
+
+### How to Find 20+ Real Tweet URLs
+Search 6-8 different topics/celebrities separately:
+1. `site:x.com celebrity name october 2026 status` — get 3-5 tweets per search
+2. Search for viral celebrity accounts directly (Chrissy Teigen, Ryan Reynolds, Kacey Musgraves, Lizzo, etc.)
+3. Search for trending hashtags: `site:x.com #VSFashionShow status` etc.
+4. Use laineyGossip.com, BuzzFeed, Yahoo roundups as sources for username handles, then find their status URLs
+
+### Article Structure
+```
+---
+title: "25 Celebrity Tweets That Had the Internet Screaming This Week"
+description: "From VS Fashion Show chaos to Kelly Clarkson beefing with a bird — the 25 best celebrity tweets of the week of October 13-19, 2026."
+pubDate: "2026-10-21"
+category: "Drama"
+tags: ["celebrity tweets", "funny tweets", "celebrity drama", "twitter", "viral"]
+image: "/images/weekly-tweets-[date].jpg"
+---
+
+[brief 1-sentence intro]
+
+[tweet 1 embed]
+[1 sentence reaction max]
+
+[tweet 2 embed]
+[1 sentence reaction max]
+
+... repeat 20-35 times
+```
+
+### SEO Title Formulas That Rank
+- "X Celebrity Tweets That Had Everyone Talking This Week"
+- "The X Funniest Celebrity Tweets From [Month] [Date]-[Date], [Year]"
+- "X Best Celebrity Tweets You Need to See Right Now"
+- "This Week's X Most Viral Celebrity Tweets ([Date Range])"
+- "X Celebrities Who Were Absolutely Unhinged on Twitter This Week"
