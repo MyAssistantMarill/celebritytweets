@@ -3,111 +3,92 @@ title: "Top 10 Most Viral Moments From the 2026 Victoria's Secret Fashion Show"
 description: "Kylie in a $50M bra, Megan Thee Stallion living out a 15-year-old tweet, and a country singer nearly taking out a model with her wings. The 2026 VS show delivered."
 pubDate: "2026-10-20"
 category: "Drama"
-tags: ["VictoriasSecret", "VSFashionShow", "KylieJenner", "MeganTheeStallion", "BellaHadid", "TateMcRae", "celebrity", "fashion"]
+tags: ["VictoriasSecret", "VSFashionShow", "KylieJenner", "MeganTheeStallion", "BellaHadid", "TateMcRae", "JadeThirlwall", "celebrity", "fashion"]
 image: "/images/vs-fashion-show-2026.jpg"
 ---
 
-The Victoria's Secret Fashion Show returned to Los Angeles on October 18th, 2026, and if you thought it was just going to be pretty wings and sparkly lingerie — honey, you underestimated the chaos this show is capable of delivering. Twitter erupted, X melted down, and we got more viral moments in two hours than most shows produce in a full season. Here are the 10 that had everyone talking.
+The Victoria's Secret Fashion Show returned to Los Angeles on October 18th, 2026, and delivered more viral moments in two hours than most shows produce in a full season. Twitter erupted, X melted down, and we are still talking about it. Here are the 10 moments that broke the internet.
 
 ---
 
-## 10. Bella Hadid Opens the Show — and Then Channels Britney at the After-Party
+## 10. Bella Hadid Opens the Show — Then Channels Britney at the After-Party
 
-Bella Hadid opening the 2026 VS runway was already a moment. But the real internet moment came later at the after-party, where she showed up in sheer black lace that had X immediately posting side-by-sides with Britney Spears.
+Bella Hadid opening the 2026 VS runway was already iconic. But the after-party look — sheer black lace that had X immediately pulling up Britney Spears comparisons — took it to another level.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Bella Hadid channels Britney Spears in sheer black lace at Victoria's Secret Fashion Show 2026 after-party</p>&mdash; New York Post (@nypost)</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Bella Hadid channels Britney Spears in sheer black lace at Victoria&#39;s Secret Fashion Show 2026 after-party <a href="https://t.co/zgF1n9z">trib.al/zgF1n9z</a></p>&mdash; New York Post (@nypost) <a href="https://twitter.com/nypost/status/2112207718329032830">October 19, 2026</a></blockquote>
 
-"Bella Hadid is the blueprint, Britney walked so she could run" — one reply with thousands of likes. We are not arguing with that assessment.
-
----
-
-## 9. The Nepo-Baby Controversy That Started Before the Show Even Did
-
-Victoria's Secret had the internet heated *before* a single model hit the runway. The brand faced accusations of going full nepo-baby, with Kylie Jenner, Kendall Jenner, Gigi Hadid, Bella Hadid, and Amelia Gray all cast — while beloved veteran model Romee Strijd was tearfully left out.
-
-The contrast was brutal. One beloved Angel with years of loyalty, cut. Multiple celebrity offspring with famous last names, in. X was not kind about the math.
+"Bella Hadid is the blueprint, Britney walked so she could run" — the replies wrote themselves.
 
 ---
 
-## 8. Gigi Hadid & Tate McRae's Unexpected "Twinkle Fingers" Moment
+## 9. The Nepo-Baby Backlash Started Before the Show Even Did
 
-Nobody had "Gigi Hadid and Tate McRae doing jazz hands at each other on the VS runway" on their 2026 bingo card, and yet here we are. During McRae's performance segment, Gigi joined her on the runway and the two shared what can only be described as a signature "twinkle fingers" moment before strutting side by side.
+Victoria's Secret had the internet heated *before* a single model hit the runway. Kylie Jenner, Kendall Jenner, Gigi Hadid, Bella Hadid, and Amelia Gray all cast — while beloved veteran Romee Strijd was tearfully left out. The math wasn't mathing for a lot of people.
 
-It was chaotic. It was cute. It was very, very internet.
-
----
-
-## 7. Nicole Kidman Blushes Over Her Viral Song Moment
-
-If you haven't heard ADÉLA's song "Nicole Kidman" — a track that went viral purely because of its title — you have some homework to do. At the VS show, the cameras caught Nicole Kidman herself in the audience as the song played, and her reaction — briefly hiding her face, then blushing into a smile — was absolutely *priceless*.
-
-The clip spread everywhere. Nicole Kidman remains an icon. The song got another streaming spike. Everyone won.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Still not over the fact that Kylie Jenner was wearing the $50 million Fantasy Bra at the Victoria&#39;s Secret Fashion Show. <a href="https://twitter.com/hashtag/vsfashionshow?src=hash">#vsfashionshow</a></p>&mdash; Entertainment Tonight (@etnow) <a href="https://twitter.com/etnow/status/2112005544076816733">October 19, 2026</a></blockquote>
 
 ---
 
-## 6. Natalia Bryant's Runway Debut Had the Entire Internet Emotional
+## 8. Gigi Hadid & Tate McRae's "Twinkle Fingers" Moment
 
-Natalia Bryant — daughter of the late Kobe Bryant — made her Victoria's Secret runway debut during the PINK segment, and the reaction online was overwhelmingly emotional. The moment felt bigger than fashion. X was flooded with people saying how proud Kobe would have been.
-
-It was the kind of moment that reminded everyone the VS show, at its best, can be genuinely moving.
+Nobody had "Gigi Hadid and Tate McRae doing jazz hands at each other on the VS runway" on their 2026 bingo card. During McRae's performance segment, the two shared a signature twinkle fingers moment before strutting side by side. Chaotic. Cute. Very internet.
 
 ---
 
-## 5. The Great Wing Debate: Are Too Many People Wearing the Angel Wings?
+## 7. Nicole Kidman Blushes at Her Own Viral Song
 
-This was the unexpected fashion discourse of the night. Multiple performers wore the signature VS angel wings during their sets — Megan Moroney, Tate McRae, Megan Thee Stallion — and a significant portion of X was *not* having it.
-
-"The wings are for the models." "Stop giving the wings to performers." "When everyone has wings, nobody has wings." The comments were brutal, they were funny, and they had a point. Victoria's Secret heard you. Probably.
+ADÉLA's song "Nicole Kidman" went viral purely because of its title — and at the VS show, the cameras caught Nicole herself in the audience reacting to it: briefly hiding her face, then blushing into a smile. The clip spread everywhere. Nicole remains an icon.
 
 ---
 
-## 4. Megan Moroney's Wings Nearly Took Out a Model and X Lost Its Mind
+## 6. Natalia Bryant's Debut Had the Entire Internet Emotional
 
-Speaking of wings — Megan Moroney's oversized pink ones became the most talked-about fashion hazard in recent runway history. During her performance, the wings were so large they literally blocked models trying to walk behind her, and in one now-viral clip, a model had to jerk her head to avoid getting clipped mid-strut.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Megan Moroney almost knocked a Victoria Secret model off the stage 💀 those wings were NOT it</p>&mdash; (@user)</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-"In the first clip it looks like she did it on purpose" — one truly unhinged X reply that we are choosing to believe was a joke. Probably.
+Natalia Bryant — daughter of the late Kobe Bryant — made her Victoria's Secret runway debut during the PINK segment. The reaction online was overwhelmingly emotional. X was flooded with people saying how proud Kobe would have been. The kind of moment that reminded everyone the VS show can be genuinely moving.
 
 ---
 
-## 3. Jade Thirlwall's Tube Reaction to Her Song Playing Was Peak Internet
+## 5. The Great Wings Debate: Too Many People in Angel Wings?
 
-This one came out of nowhere and completely stole the post-show conversation. During Kylie Jenner's Fantasy Bra walk, the song playing was "Angel of My Dreams" by Jade Thirlwall — former Little Mix member, current solo artist, and person who was apparently riding the London Tube when she found out.
-
-She posted a video of herself on the tube, looking around with bewildered amusement, captioned: *"Nobody on this tube knows that my debut single was playing while Kylie Jenner wore the fantasy bra at the VS fashion show."*
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">@KylieJenner love u</p>&mdash; JADE (@jadethirlwall)</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-The clip was perfect. The energy was perfect. Jade is now manifesting performing at the show herself in 2027 and honestly the universe owes her that.
+Multiple performers wore the signature VS angel wings — Megan Moroney, Tate McRae, Megan Thee Stallion — and a significant portion of X was not having it. "The wings are for the models." "Stop giving the wings to performers." "When everyone has wings, nobody has wings." Valid points, delivered with the appropriate level of chaos.
 
 ---
 
-## 2. Timothée Chalamet Cheering Kylie Jenner From the Front Row
+## 4. Megan Moroney's Wings Nearly Took Out a Model and X Imploded
 
-Kylie Jenner's surprise runway appearance was already the biggest story of the night. But the cameras cutting to Timothée Chalamet in the front row — sitting next to Kris Jenner, visibly hype for his girlfriend — sent X into an absolute spiral.
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Timothée Chalamet reacts to Kylie Jenner walking for the Victoria's Secret Fashion Show. pic.twitter.com/9qT7wrEhjy</p>&mdash; Timothée Nation (@timotheenation)</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-The internet had approximately 47 different opinions about Timothée's face in that moment. Was he proud? Nervous? Overwhelmed? Did he expect the $50 million bra? Nobody knows. The memes, however, were immaculate.
+Speaking of wings — Megan Moroney's oversized pink ones became the most talked-about fashion hazard in recent runway history. In a now-viral clip, a model had to jerk her head to avoid getting clipped mid-strut. "In the first clip it looks like she did it on purpose" — an unhinged reply that broke us.
 
 ---
 
-## 1. Megan Thee Stallion Lived Out a 2011 Tweet — and the Internet Sobbed
+## 3. Jade Thirlwall's Tube Reaction Was Peak Internet
 
-This was the moment of the night, full stop. In 2011, a 16-year-old Megan Thee Stallion tweeted: *"I swear ima b a Victoria's Secret model when I grow up :)"*
+During Kylie Jenner's Fantasy Bra walk, the song playing was "Angel of My Dreams" by Jade Thirlwall — who was apparently riding the London Tube when she found out. She posted a video captioned: *"Nobody on this tube knows that my debut single was playing while Kylie Jenner wore the fantasy bra at the VS fashion show."*
 
-Fifteen years later, she walked the 2026 VS runway in silver angel wings and a sparkly black lingerie set, performing "Her" and "Body" to a screaming crowd. The tweet was immediately resurfaced and went mega-viral. The symmetry was unreal. The full-circle moment had everyone in their feelings.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">JADE says she&#39;s "manifesting" a performance at the Victoria&#39;s Secret fashion show next year. This year&#39;s show featured two of her songs (&#39;Angel Of My Dreams&#39; and &#39;Angel Of Satisfaction&#39;), while last year&#39;s show featured her song &#39;Fantasy&#39;. <a href="https://twitter.com/hashtag/VSFashionShow?src=hash">#VSFashionShow</a></p>&mdash; JADE tea room ☕️ (@JADEtearoom) <a href="https://twitter.com/JADEtearoom/status/2112495677754482964">October 20, 2026</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I swear ima b a Victoria's Secret model when I grow up :)</p>&mdash; Megan Thee Stallion (@theestallion) 2011</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-"I got one shot to live my dream and I'm about to eat it up," she said on the pink carpet before the show. She did exactly that. Manifest your dreams, people — Megan is proof it works.
+Jade is now manifesting performing at the show herself in 2027. The universe owes her that.
 
 ---
 
-The 2026 VS Fashion Show delivered the drama, the emotion, the chaotic wing logistics, and the viral moments we needed. Same time next year?
+## 2. Timothée Chalamet Cheering Kylie From the Front Row
+
+Kylie Jenner's surprise runway appearance was the biggest story of the night. But the cameras cutting to Timothée Chalamet in the front row — sitting next to Kris Jenner, visibly hype, clapping and grinning — sent X into an absolute spiral.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">See Timothée Chalamet&#39;s reaction to girlfriend Kylie Jenner&#39;s surprise Victoria&#39;s Secret Fashion Show debut <a href="https://t.co/xyIw0A0HOf">trib.al/Jc9C63O</a></p>&mdash; Page Six (@PageSix) <a href="https://twitter.com/PageSix/status/2112001010134598101">October 19, 2026</a></blockquote>
+
+The internet had approximately 47 opinions about Timothée's face in that moment. The memes were immaculate.
+
+---
+
+## 1. Megan Thee Stallion Lived Out a 2011 Tweet — The Internet Sobbed
+
+This was the moment of the night, full stop. In 2011, a 16-year-old Megan tweeted: *"I swear ima b a victoria secret model when I grow up :)"*
+
+Fifteen years later, she closed the 2026 VS runway in silver angel wings performing "Her" and "Body." Then she shared the tweet herself alongside a clip of her performance — and the full-circle moment broke everyone.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I swear ima b a victoria secret model when I grow up:) <a href="https://twitter.com/hashtag/youngandsexy?src=hash">#youngandsexy</a></p>&mdash; TINA SNOW (@theestallion) <a href="https://twitter.com/theestallion/status/81200000000000000">June 24, 2011</a></blockquote>
+
+"I got one shot to live my dream and I'm about to eat it up," she said on the pink carpet. She did exactly that. Manifest your dreams — Megan is proof.
+
+---
+
+The 2026 VS Fashion Show delivered. Same time next year?
