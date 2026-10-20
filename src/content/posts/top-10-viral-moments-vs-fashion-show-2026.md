@@ -106,15 +106,52 @@ The internet had approximately 47 opinions about Timothée's face in that moment
 
 ---
 
+<!-- Ad: between #2 and #1 -->
+<ins class="adsbygoogle"
+     style="display:block; text-align:center; margin: 2rem 0;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-4883779928557310"
+     data-ad-slot="6954439755"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+---
+
 ## 1. Megan Thee Stallion Lived Out a 2011 Tweet — The Internet Sobbed
 
-This was the moment of the night, full stop. In 2011, a 16-year-old Megan tweeted: *"I swear ima b a victoria secret model when I grow up :)"*
+This was the moment of the night, full stop. Fifteen years ago, a 16-year-old Megan posted this on Twitter:
 
-Fifteen years later, she closed the 2026 VS runway in silver angel wings performing "Her" and "Body." Then she shared the tweet herself alongside a clip of her performance — and the full-circle moment broke everyone.
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/theestallion" alt="@theestallion" onerror="this.style.background='#1E1E1E';this.src=''" />
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">TINA SNOW</span>
+      <span class="tweet-card-handle">@theestallion</span>
+    </div>
+    <span class="tweet-card-x">𝕏</span>
+  </div>
+  <p class="tweet-card-text">I swear ima b a victoria secret model when I grow up :) #youngandsexy</p>
+  <div class="tweet-card-date">5:42 PM · June 24, 2011</div>
+</div>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I swear ima b a victoria secret model when I grow up:) <a href="https://twitter.com/hashtag/youngandsexy?src=hash">#youngandsexy</a></p>&mdash; TINA SNOW (@theestallion) <a href="https://twitter.com/theestallion/status/81200000000000000">June 24, 2011</a></blockquote>
+Fifteen years later, she closed the 2026 VS runway in silver angel wings performing "Her" and "Body." Then she shared that exact tweet herself alongside a clip of her performance — and the full-circle moment broke everyone.
 
-"I got one shot to live my dream and I'm about to eat it up," she said on the pink carpet. She did exactly that. Manifest your dreams — Megan is proof.
+Then on the pink carpet, she said:
+
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/theestallion" alt="@theestallion" onerror="this.style.background='#1E1E1E';this.src=''" />
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Megan Thee Stallion</span>
+      <span class="tweet-card-handle">@theestallion</span>
+    </div>
+    <span class="tweet-card-x">𝕏</span>
+  </div>
+  <p class="tweet-card-text">"I got one shot to live my dream and I'm about to eat it up."</p>
+  <div class="tweet-card-date">Pink carpet · October 18, 2026</div>
+</div>
+
+She did exactly that. Manifest everything. 🙏
 
 ---
 
