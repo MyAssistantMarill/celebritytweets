@@ -172,6 +172,24 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
     font-size: 0.9rem;
   }
 
+  /* Category Tags */
+  .category-tag {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    width: fit-content;
+  }
+  .category-tag.throwback {
+    background: linear-gradient(135deg, #B8860B, #DAA520);
+    font-size: 0.75rem;
+  }
+
   /* Utility */
   a { color: var(--blue-dark); }
   img { max-width: 100%; }
