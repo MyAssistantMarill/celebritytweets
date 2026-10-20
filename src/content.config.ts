@@ -11,6 +11,8 @@ const posts = defineCollection({
     throwback: z.boolean().optional(),
     tags: z.array(z.string()).optional(),
     image: z.string().optional(),
+    author: z.string().optional(),
+    updatedDate: z.string().optional(),
   }),
 });
 

@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const allPosts = await getCollection('posts');
+const posts = allPosts
+  .filter(p => p.data.category === 'Throwback Thursday')
+  .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+---
+
+<BaseLayout
+  title="Throwback Thursday — Classic Celebrity Feuds"
+  description="Every Thursday we revisit the most iconic celebrity feuds, tweets, and drama from years past. The tea never expires."
+>
+  <section class="category-page">
+    <h1 class="page-title">⏪ Throwback Thursday</h1>
+    <p class="page-desc">Every Thursday, we dig into celebrity drama from 2+ years ago — the iconic feuds, legendary clapbacks, and moments that defined an era. Because good tea never expires.</p>
+
+    {posts.length === 0 ? (
+      <p class="empty">First Throwback Thursday drops this week — check back soon!</p>
+    ) : (
+      <div class="article-grid">
+        {posts.map(post => (
+          <a href={`/posts/${post.id}`} class="card">
+            {post.data.image && <img src={post.data.image} alt={post.data.title} class="card-img" width="400" height="220" loading="lazy" />}
+            <div class="card-body">
+              <span class="category-tag throwback">Throwback Thursday</span>
+              <h2>{post.data.title}</h2>
+              <p>{post.data.description}</p>
+              <span class="meta">{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .category-page { padding: 2rem 0; }
+  .page-title { font-family: 'Poppins', sans-serif; font-size: 2rem; font-weight: 800; margin-bottom: 0.5rem; border-left: 4px solid #DAA520; padding-left: 0.75rem; }
+  .page-desc { color: #666; margin-bottom: 2rem; max-width: 640px; }
+  .empty { color: #999; font-style: italic; }
+  .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
+  .card { background: var(--white); border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; box-shadow: 0 2px 12px rgba(0,0,0,0.08); transition: transform 0.2s; border: 1px solid var(--gray-mid); }
+  .card:hover { transform: translateY(-3px); }
+  .card-img { width: 100%; height: 180px; object-fit: cover; }
+  .card-body { padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
+  .card-body h2 { font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 700; line-height: 1.3; }
+  .card-body p { font-size: 0.875rem; color: #555; }
+  .meta { font-size: 0.8rem; color: #888; }
+</style>

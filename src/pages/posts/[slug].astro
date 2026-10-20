@@ -9,6 +9,8 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const author = post.data.author || 'CelebrityTweets Editorial';
+const updatedDate = post.data.updatedDate || post.data.pubDate;
 ---
 
 <BaseLayout
@@ -17,6 +19,8 @@ const { Content } = await render(post);
   image={post.data.image}
   article={true}
   pubDate={post.data.pubDate}
+  updatedDate={updatedDate}
+  author={author}
 >
   <article class="article-container">
 
@@ -26,24 +30,24 @@ const { Content } = await render(post);
       <h1>{post.data.title}</h1>
       <p class="article-desc">{post.data.description}</p>
       <div class="article-meta">
+        <span>✍️ By {author}</span>
         <span>📅 {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
-        {post.data.tags && <span>{post.data.tags.map(t => `#${t}`).join(' ')}</span>}
+        {updatedDate !== post.data.pubDate && <span>🔄 Updated {new Date(updatedDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>}
+        {post.data.tags && <span class="tags-inline">{post.data.tags.map(t => `#${t}`).join(' ')}</span>}
       </div>
     </header>
 
     <!-- Hero Image -->
-    {post.data.image && <img src={post.data.image} alt={post.data.title} class="article-hero-img" />}
-
-    <!-- Mid-article Ad (1 ad, after intro — best performing placement) -->
-    <div class="ad-mid">
-      <ins class="adsbygoogle"
-           style="display:block; text-align:center;"
-           data-ad-layout="in-article"
-           data-ad-format="fluid"
-           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-           data-ad-slot="2222222222"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
+    {post.data.image && (
+      <img
+        src={post.data.image}
+        alt={`Featured image for: ${post.data.title}`}
+        class="article-hero-img"
+        width="780"
+        height="420"
+        loading="eager"
+      />
+    )}
 
     <!-- Article Body -->
     <div class="article-body">
@@ -57,18 +61,12 @@ const { Content } = await render(post);
       </div>
     )}
 
-  </article>
+    <!-- Editorial note -->
+    <div class="editorial-note">
+      <p>📌 <strong>Editorial policy:</strong> All tweets referenced are verified public posts. We embed official X/Twitter content and link to primary sources. <a href="/about">Learn more about how we work.</a></p>
+    </div>
 
-  <!-- Sidebar Ad (sticky — best ROI placement) -->
-  <aside class="sidebar-ad">
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-         data-ad-slot="3333333333"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </aside>
+  </article>
 
 </BaseLayout>
 
@@ -79,11 +77,25 @@ const { Content } = await render(post);
   "headline": post.data.title,
   "description": post.data.description,
   "datePublished": post.data.pubDate,
-  "image": post.data.image ? `https://celebritytweets.com${post.data.image}` : undefined,
+  "dateModified": updatedDate,
+  "image": post.data.image ? `https://celebritytweets.com${post.data.image}` : `https://celebritytweets.com/og-default.jpg`,
+  "author": {
+    "@type": "Organization",
+    "name": author,
+    "url": "https://celebritytweets.com/about"
+  },
   "publisher": {
     "@type": "Organization",
     "name": "CelebrityTweets",
-    "url": "https://celebritytweets.com"
+    "url": "https://celebritytweets.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://celebritytweets.com/og-default.jpg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": `https://celebritytweets.com/posts/${post.id}`
   }
 })} />
 
@@ -103,7 +115,15 @@ const { Content } = await render(post);
     color: var(--black);
   }
   .article-desc { font-size: 1.1rem; color: #555; margin-bottom: 0.75rem; }
-  .article-meta { font-size: 0.85rem; color: #888; display: flex; gap: 1rem; flex-wrap: wrap; }
+  .article-meta {
+    font-size: 0.85rem;
+    color: #888;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .tags-inline { color: var(--blue-dark); }
   .article-hero-img {
     width: 100%;
     border-radius: 12px;
@@ -111,12 +131,12 @@ const { Content } = await render(post);
     max-height: 420px;
     object-fit: cover;
   }
-  .ad-mid { margin: 1.5rem 0; }
   .article-body { font-size: 1.05rem; line-height: 1.8; }
   .article-body h2 { font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; margin: 2rem 0 0.75rem; color: var(--blue-dark); }
   .article-body h3 { font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 700; margin: 1.5rem 0 0.5rem; }
   .article-body p { margin-bottom: 1.25rem; }
   .article-body blockquote { border-left: 4px solid var(--blue); padding-left: 1rem; color: #555; font-style: italic; margin: 1.5rem 0; }
+  .article-body a { color: var(--blue-dark); text-decoration: underline; }
   .tags { margin-top: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
   .tag {
     background: var(--blue);
@@ -126,6 +146,16 @@ const { Content } = await render(post);
     border-radius: 20px;
     font-weight: 500;
   }
+  .editorial-note {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: var(--gray);
+    border-radius: 8px;
+    font-size: 0.85rem;
+    color: #666;
+    border-left: 3px solid var(--blue);
+  }
+  .editorial-note a { color: var(--blue-dark); }
   .category-tag {
     display: inline-block;
     background: var(--red);
@@ -135,16 +165,6 @@ const { Content } = await render(post);
     text-transform: uppercase;
     padding: 0.2rem 0.6rem;
     border-radius: 20px;
-  }
-  .sidebar-ad { display: none; }
-  @media (min-width: 1100px) {
-    .sidebar-ad {
-      display: block;
-      position: fixed;
-      right: 1rem;
-      top: 120px;
-      width: 160px;
-    }
   }
   @media (max-width: 600px) {
     .article-header h1 { font-size: 1.5rem; }

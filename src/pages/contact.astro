@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Contact CelebrityTweets"
+  description="Got a tip, correction, or question? Get in touch with the CelebrityTweets team."
+>
+  <article class="contact-page">
+    <h1>Contact Us</h1>
+    <p class="lead">Got a tip? Found an error? Want to share something we should cover? We'd love to hear from you.</p>
+
+    <div class="contact-options">
+      <div class="contact-card">
+        <h2>📧 Email</h2>
+        <p>For tips, corrections, and general inquiries:</p>
+        <a href="mailto:myassistantmarill@gmail.com" class="contact-link">myassistantmarill@gmail.com</a>
+      </div>
+
+      <div class="contact-card">
+        <h2>🐦 X / Twitter</h2>
+        <p>Tag us in something we should cover:</p>
+        <a href="https://x.com/CelebTweets" class="contact-link" target="_blank" rel="noopener">@CelebTweets</a>
+      </div>
+
+      <div class="contact-card">
+        <h2>✏️ Corrections</h2>
+        <p>If we've reported something inaccurately, email us with the article title and what's incorrect. We issue corrections promptly and update articles with a note.</p>
+      </div>
+    </div>
+
+    <p class="note">We read every message. Response times vary but we always act on legitimate corrections within 24 hours.</p>
+  </article>
+</BaseLayout>
+
+<style>
+  .contact-page {
+    max-width: 740px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+  }
+  .contact-page h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  .lead { font-size: 1.1rem; color: #555; margin-bottom: 2rem; }
+  .contact-options { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.25rem; margin-bottom: 2rem; }
+  .contact-card {
+    background: var(--gray);
+    border-radius: 12px;
+    padding: 1.25rem;
+    border: 1px solid var(--gray-mid);
+  }
+  .contact-card h2 { font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .contact-card p { font-size: 0.9rem; color: #666; margin-bottom: 0.75rem; }
+  .contact-link {
+    color: var(--blue-dark);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    word-break: break-all;
+  }
+  .contact-link:hover { text-decoration: underline; }
+  .note { font-size: 0.875rem; color: #888; font-style: italic; }
+</style>

@@ -5,10 +5,13 @@ export interface Props {
   image?: string;
   article?: boolean;
   pubDate?: string;
+  updatedDate?: string;
+  author?: string;
 }
 
-const { title, description, image = '/og-default.jpg', article = false, pubDate } = Astro.props;
+const { title, description, image = '/og-default.jpg', article = false, pubDate, updatedDate, author = 'CelebrityTweets Editorial' } = Astro.props;
 const siteUrl = 'https://celebritytweets.com';
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTweets`;
 ---
 
@@ -19,62 +22,54 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href={Astro.url} />
+    <link rel="canonical" href={canonicalUrl} />
     <title>{fullTitle}</title>
 
     <!-- Open Graph -->
     <meta property="og:type" content={article ? 'article' : 'website'} />
-    <meta property="og:url" content={Astro.url} />
+    <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={`${siteUrl}${image}`} />
+    <meta property="og:site_name" content="CelebrityTweets" />
     {pubDate && <meta property="article:published_time" content={pubDate} />}
+    {updatedDate && <meta property="article:modified_time" content={updatedDate} />}
+    {author && <meta property="article:author" content={author} />}
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${siteUrl}${image}`} />
+    <meta name="twitter:site" content="@CelebTweets" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <!-- Google AdSense -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- X/Twitter embed widget (loaded once globally) -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
 
   <body>
     <!-- Header -->
     <header class="site-header">
       <div class="container">
-        <a href="/" class="logo">
-          ⭐ CelebrityTweets
-        </a>
+        <a href="/" class="logo">⭐ CelebrityTweets</a>
         <nav>
           <a href="/">Home</a>
           <a href="/category/feuds">Feuds</a>
-          <a href="/category/shade">Shade</a>
           <a href="/category/drama">Drama</a>
-          <a href="/category/collabs">Collabs</a>
+          <a href="/category/shade">Shade</a>
+          <a href="/throwback-thursday">Throwbacks</a>
+          <a href="/about">About</a>
         </nav>
       </div>
     </header>
-
-    <!-- Top Banner Ad (1 ad, non-intrusive leaderboard) -->
-    <div class="ad-banner container">
-      <ins class="adsbygoogle"
-           style="display:block"
-           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-           data-ad-slot="1111111111"
-           data-ad-format="auto"
-           data-full-width-responsive="true"></ins>
-      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-    </div>
 
     <main class="container">
       <slot />
@@ -82,8 +77,13 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
 
     <footer class="site-footer">
       <div class="container">
-        <p>© {new Date().getFullYear()} CelebrityTweets.com · Entertainment gossip & celebrity drama</p>
-        <p style="font-size:0.8rem; margin-top:0.5rem; opacity:0.7;">We are not affiliated with any celebrities or social media platforms. All tweets are public content embedded via official embed codes.</p>
+        <p>© {new Date().getFullYear()} CelebrityTweets.com · Celebrity gossip & tweet drama</p>
+        <nav class="footer-nav">
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+          <a href="/sitemap.xml">Sitemap</a>
+        </nav>
+        <p class="disclaimer">We are not affiliated with any celebrities or social media platforms. All tweets are public content embedded via official X/Twitter embed codes. We verify tweets before publishing.</p>
       </div>
     </footer>
   </body>
@@ -152,16 +152,6 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
   }
   nav a:hover { color: var(--blue); }
 
-  /* Ad Banner */
-  .ad-banner {
-    margin: 1rem auto;
-    text-align: center;
-    min-height: 90px;
-    background: var(--gray);
-    border-radius: 8px;
-    overflow: hidden;
-  }
-
   /* Footer */
   .site-footer {
     background: var(--black);
@@ -171,6 +161,10 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
     margin-top: 3rem;
     font-size: 0.9rem;
   }
+  .footer-nav { display: flex; justify-content: center; gap: 1.5rem; margin: 0.75rem 0; }
+  .footer-nav a { color: var(--blue); text-decoration: none; font-size: 0.85rem; }
+  .footer-nav a:hover { text-decoration: underline; }
+  .disclaimer { font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem; max-width: 600px; margin-left: auto; margin-right: auto; }
 
   /* Category Tags */
   .category-tag {
@@ -192,7 +186,7 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
 
   /* Utility */
   a { color: var(--blue-dark); }
-  img { max-width: 100%; }
+  img { max-width: 100%; height: auto; }
 
   @media (max-width: 600px) {
     .logo { font-size: 1.1rem; }

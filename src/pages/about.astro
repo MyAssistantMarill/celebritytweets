@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="About CelebrityTweets"
+  description="CelebrityTweets covers celebrity tweet drama, feuds, clapbacks, and viral moments — daily. Here's how we work."
+>
+  <article class="about-page">
+    <h1>About CelebrityTweets</h1>
+
+    <p class="lead">CelebrityTweets is a daily celebrity gossip and social media news site covering the feuds, clapbacks, viral moments, and tweet drama that keep the internet talking. We publish one new article every day — plus <strong>Top X Tuesday</strong> lists and <strong>Throwback Thursday</strong> deep dives into classic celebrity drama.</p>
+
+    <h2>What We Cover</h2>
+    <p>We cover public celebrity social media activity — primarily X/Twitter — including feuds, viral moments, surprising reactions, and the commentary that follows. We don't cover political content. We focus on entertainment, pop culture, and the genuinely weird and wonderful world of celebrity online behavior.</p>
+
+    <h2>Our Editorial Policy</h2>
+    <p>Before publishing any tweet or social media post, we verify it's real using primary sources: the original post, archived versions, and reporting from established entertainment outlets. When a tweet is fake or disputed (like the viral MGK/Megan Fox incident), we say so clearly and report on the misinformation itself.</p>
+    <p>All tweets embedded on CelebrityTweets use official X/Twitter embed codes, which display public content in compliance with X's terms of service. We link to primary sources — original posts, news reports, and official statements — wherever possible.</p>
+
+    <h2>Corrections Policy</h2>
+    <p>We take accuracy seriously. If we've made an error, <a href="/contact">contact us</a> and we'll issue a correction promptly. Corrected articles are updated with a clear note at the top and a revised publication date.</p>
+
+    <h2>Publishing Schedule</h2>
+    <ul>
+      <li>📅 <strong>Daily:</strong> One new article covering the latest viral celebrity tweet drama</li>
+      <li>📋 <strong>Top X Tuesday:</strong> A weekly ranked list — Top 10 clapbacks, Top 7 feuds, Top 5 moments, etc.</li>
+      <li>⏪ <strong>Throwback Thursday:</strong> A deep dive into iconic celebrity drama from 2+ years ago</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Questions, tips, or corrections? <a href="/contact">Get in touch.</a></p>
+  </article>
+</BaseLayout>
+
+<style>
+  .about-page {
+    max-width: 740px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+  }
+  .about-page h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+    color: var(--black);
+  }
+  .about-page h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0 0.75rem;
+    color: var(--blue-dark);
+    border-left: 3px solid var(--red);
+    padding-left: 0.75rem;
+  }
+  .about-page p, .about-page li {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+  .about-page ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+  .about-page li { margin-bottom: 0.5rem; }
+  .about-page a { color: var(--blue-dark); text-decoration: underline; }
+  .lead { font-size: 1.15rem; color: #444; margin-bottom: 2rem; padding: 1.25rem; background: var(--gray); border-radius: 8px; border-left: 4px solid var(--blue); }
+</style>
