@@ -1,0 +1,152 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(post => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  image={post.data.image}
+  article={true}
+  pubDate={post.data.pubDate}
+>
+  <article class="article-container">
+
+    <!-- Article Header -->
+    <header class="article-header">
+      <span class="category-tag">{post.data.category}</span>
+      <h1>{post.data.title}</h1>
+      <p class="article-desc">{post.data.description}</p>
+      <div class="article-meta">
+        <span>📅 {new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+        {post.data.tags && <span>{post.data.tags.map(t => `#${t}`).join(' ')}</span>}
+      </div>
+    </header>
+
+    <!-- Hero Image -->
+    {post.data.image && <img src={post.data.image} alt={post.data.title} class="article-hero-img" />}
+
+    <!-- Mid-article Ad (1 ad, after intro — best performing placement) -->
+    <div class="ad-mid">
+      <ins class="adsbygoogle"
+           style="display:block; text-align:center;"
+           data-ad-layout="in-article"
+           data-ad-format="fluid"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="2222222222"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- Article Body -->
+    <div class="article-body">
+      <Content />
+    </div>
+
+    <!-- Tags -->
+    {post.data.tags && (
+      <div class="tags">
+        {post.data.tags.map(tag => <span class="tag">#{tag}</span>)}
+      </div>
+    )}
+
+  </article>
+
+  <!-- Sidebar Ad (sticky — best ROI placement) -->
+  <aside class="sidebar-ad">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+         data-ad-slot="3333333333"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </aside>
+
+</BaseLayout>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": post.data.title,
+  "description": post.data.description,
+  "datePublished": post.data.pubDate,
+  "image": post.data.image ? `https://celebritytweets.com${post.data.image}` : undefined,
+  "publisher": {
+    "@type": "Organization",
+    "name": "CelebrityTweets",
+    "url": "https://celebritytweets.com"
+  }
+})} />
+
+<style>
+  .article-container {
+    max-width: 780px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  .article-header { margin-bottom: 1.5rem; }
+  .article-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0.75rem 0 0.5rem;
+    color: var(--black);
+  }
+  .article-desc { font-size: 1.1rem; color: #555; margin-bottom: 0.75rem; }
+  .article-meta { font-size: 0.85rem; color: #888; display: flex; gap: 1rem; flex-wrap: wrap; }
+  .article-hero-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    max-height: 420px;
+    object-fit: cover;
+  }
+  .ad-mid { margin: 1.5rem 0; }
+  .article-body { font-size: 1.05rem; line-height: 1.8; }
+  .article-body h2 { font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; margin: 2rem 0 0.75rem; color: var(--blue-dark); }
+  .article-body h3 { font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 700; margin: 1.5rem 0 0.5rem; }
+  .article-body p { margin-bottom: 1.25rem; }
+  .article-body blockquote { border-left: 4px solid var(--blue); padding-left: 1rem; color: #555; font-style: italic; margin: 1.5rem 0; }
+  .tags { margin-top: 2rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  .tag {
+    background: var(--blue);
+    color: white;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  .category-tag {
+    display: inline-block;
+    background: var(--red);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+  }
+  .sidebar-ad { display: none; }
+  @media (min-width: 1100px) {
+    .sidebar-ad {
+      display: block;
+      position: fixed;
+      right: 1rem;
+      top: 120px;
+      width: 160px;
+    }
+  }
+  @media (max-width: 600px) {
+    .article-header h1 { font-size: 1.5rem; }
+  }
+</style>
