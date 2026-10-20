@@ -127,20 +127,22 @@ const related = allPosts
 <!-- JSON-LD -->
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "NewsArticle",
   "headline": post.data.title,
   "description": post.data.description,
-  "datePublished": post.data.pubDate,
-  "dateModified": updatedDate,
+  "datePublished": new Date(post.data.pubDate).toISOString(),
+  "dateModified": new Date(updatedDate).toISOString(),
   "image": post.data.image ? `https://celebritytweets.com${post.data.image}` : `https://celebritytweets.com/og-default.jpg`,
   "author": { "@type": "Organization", "name": author, "url": "https://celebritytweets.com/about" },
   "publisher": {
     "@type": "Organization",
     "name": "CelebrityTweets",
     "url": "https://celebritytweets.com",
-    "logo": { "@type": "ImageObject", "url": "https://celebritytweets.com/og-default.jpg" }
+    "logo": { "@type": "ImageObject", "url": "https://celebritytweets.com/og-default.jpg", "width": 600, "height": 60 }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": `https://celebritytweets.com/posts/${post.id}` }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": `https://celebritytweets.com/posts/${post.id}` },
+  "articleSection": post.data.category,
+  "keywords": post.data.tags?.join(', ')
 })} />
 
 <style>

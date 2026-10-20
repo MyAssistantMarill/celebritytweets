@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://celebritytweets.com/sitemap.xml
+Sitemap: https://celebritytweets.com/news-sitemap.xml
