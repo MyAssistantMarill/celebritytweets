@@ -56,13 +56,37 @@ Multiple performers wore the signature VS angel wings — Megan Moroney, Tate Mc
 
 ## 4. Megan Moroney's Wings Nearly Took Out a Model and X Imploded
 
-Speaking of wings — Megan Moroney's oversized pink ones became the most talked-about fashion hazard in recent runway history. In a now-viral clip, a model had to jerk her head to avoid getting clipped mid-strut. "In the first clip it looks like she did it on purpose" — an unhinged reply that broke us.
+Speaking of wings — Megan Moroney's oversized pink ones became the most talked-about fashion hazard in recent runway history. In a now-viral clip, a model had to jerk her head to avoid getting clipped mid-strut.
+
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">X reply</span>
+      <span class="tweet-card-handle">@viral reply</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">In the first clip it looks like she did it on purpose</p>
+  <div class="tweet-card-date">October 18, 2026</div>
+</div>
 
 ---
 
 ## 3. Jade Thirlwall's Tube Reaction Was Peak Internet
 
-During Kylie Jenner's Fantasy Bra walk, the song playing was "Angel of My Dreams" by Jade Thirlwall — who was apparently riding the London Tube when she found out. She posted a video captioned: *"Nobody on this tube knows that my debut single was playing while Kylie Jenner wore the fantasy bra at the VS fashion show."*
+During Kylie Jenner's Fantasy Bra walk, the song playing was "Angel of My Dreams" by Jade Thirlwall — who was apparently riding the London Tube when she found out. She posted a video with the caption:
+
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Jade Thirlwall</span>
+      <span class="tweet-card-handle">@jadethirlwall</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Nobody on this tube knows that my debut single was playing while Kylie Jenner wore the fantasy bra at the VS fashion show.</p>
+  <div class="tweet-card-date">October 19, 2026</div>
+</div>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">JADE says she&#39;s "manifesting" a performance at the Victoria&#39;s Secret fashion show next year. This year&#39;s show featured two of her songs (&#39;Angel Of My Dreams&#39; and &#39;Angel Of Satisfaction&#39;), while last year&#39;s show featured her song &#39;Fantasy&#39;. <a href="https://twitter.com/hashtag/VSFashionShow?src=hash">#VSFashionShow</a></p>&mdash; JADE tea room ☕️ (@JADEtearoom) <a href="https://twitter.com/JADEtearoom/status/2112495677754482964">October 20, 2026</a></blockquote>
 
