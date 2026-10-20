@@ -71,19 +71,43 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 **9.** If you missed the saga: Kelly drove to Brooklyn, pointed to a $15,000 robot bird with a price tag, and was told to find "something more comparable." Her tweet hit 46 million views:
 
-> *"Just drove all the way to Brooklyn to check out this store I thought looked really rad and had a few things in mind to buy and literally was looked at as if I couldn't afford it and was told he could find something comparable for me. Wow, dude. You're an idiot and just lost a huge sale."*
-> — @kellyclarkson, October 10, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Kellyclarkson</span>
+      <span class="tweet-card-handle">@kellyclarkson</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Just drove all the way to Brooklyn to check out this store I thought looked really rad and had a few things in mind to buy and literally was looked at as if I couldn't afford it and was told he could find something comparable for me. Wow, dude. You're an idiot and just lost a huge sale.</p>
+  <div class="tweet-card-date">October 10, 2026</div>
+</div>
 **10.** The internet did NOT hold back:
 
-> *"Kelly Clarkson is currently beefing with a Brooklyn business over a singing bird and it's unexpectedly become one of the internet's biggest talking points. A one-of-a-kind singing and dancing bird automaton, Michael."*
-> — @laineygossip recap, October 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Laineygossip Recap</span>
+      <span class="tweet-card-handle">@laineygossip recap</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Kelly Clarkson is currently beefing with a Brooklyn business over a singing bird and it's unexpectedly become one of the internet's biggest talking points. A one-of-a-kind singing and dancing bird automaton, Michael.</p>
+  <div class="tweet-card-date">October 2026</div>
+</div>
 **11.** After the shop claimed the bird wasn't for sale, Kelly came back with a photo of the price tag:
 
-> *"So you're not only rude, you're also a liar. Got it."*
-> — @kellyclarkson, October 11, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Kellyclarkson</span>
+      <span class="tweet-card-handle">@kellyclarkson</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">So you're not only rude, you're also a liar. Got it.</p>
+  <div class="tweet-card-date">October 11, 2026</div>
+</div>
 "Cool cool sure it wasn't for sale that's the narrative Art of Play is gonna go with." We stan a petty queen.
 
 ---
@@ -92,14 +116,30 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 **12.** Dan Levy was not going to let it go:
 
-> *"Dear @nbcsnl, having a host whose entire MO is to make marginalized people feel like sh*t is making me feel like sh*t. Just FYI."*
-> — @danjlevy, October 11, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Danjlevy</span>
+      <span class="tweet-card-handle">@danjlevy</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Dear @nbcsnl, having a host whose entire MO is to make marginalized people feel like sht is making me feel like sht. Just FYI.</p>
+  <div class="tweet-card-date">October 11, 2026</div>
+</div>
 **13.** Shane Gillis's ex-girlfriend responded to the gym joke by showing off her gym outfit. In what universe was this the plan:
 
-> *"Ok I'll bite."* [photo of gym outfit]
-> — @_alexbrassel, October 15, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name"> Alexbrassel</span>
+      <span class="tweet-card-handle">@_alexbrassel</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Ok I'll bite." [photo of gym outfit]</p>
+  <div class="tweet-card-date">October 15, 2026</div>
+</div>
 The audacity. The chaos. The timeline.
 
 ---
@@ -108,9 +148,17 @@ The audacity. The chaos. The timeline.
 
 **14.** This is unhinged behavior and we respect it completely:
 
-> *"OMG! I have been on hold with TSA for almost TWO HOURS! 😩 TSA needs to hire some help! At this point, I decided to become part of the solution. 😂 While sitting on hold, I went to their website, filled out a job application, and already scheduled myself an interview!"*
-> — @TiffanyHaddish, October 15, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Tiffanyhaddish</span>
+      <span class="tweet-card-handle">@TiffanyHaddish</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">OMG! I have been on hold with TSA for almost TWO HOURS! 😩 TSA needs to hire some help! At this point, I decided to become part of the solution. 😂 While sitting on hold, I went to their website, filled out a job application, and already scheduled myself an interview!</p>
+  <div class="tweet-card-date">October 15, 2026</div>
+</div>
 The follow-through. The commitment. The federal employment paperwork. An icon.
 
 ---
@@ -119,20 +167,43 @@ The follow-through. The commitment. The federal employment paperwork. An icon.
 
 **15.** The softboy_w tweet that is simply correct:
 
-> *"Dear Apple, Nobody needs to know I'm emailing from my iPhone. Sent from my iPhone"*
-> — @softboy_w, October 16, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Softboy W</span>
+      <span class="tweet-card-handle">@softboy_w</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Dear Apple, Nobody needs to know I'm emailing from my iPhone. Sent from my iPhone</p>
+  <div class="tweet-card-date">October 16, 2026</div>
+</div>
 **16.** The relatable work-from-home era tweet that went mega-viral:
 
-> *"Logging onto the dark web tomorrow (Teams, Outlook, and Excel)."*
-> — @Omgemeraldddd, October 18, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Omgemeraldddd</span>
+      <span class="tweet-card-handle">@Omgemeraldddd</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Logging onto the dark web tomorrow (Teams, Outlook, and Excel).</p>
+  <div class="tweet-card-date">October 18, 2026</div>
+</div>
 **17.** And the full "Listen to your body" tweet that ended the week perfectly:
 
-> *"Listen to your body."*
-> *My body: Delete Microsoft Teams. Delete Outlook. Lie down for 8–10 hours. Touch grass. Roll around in the grass. Eat some grass. You're a cow now.*
-> — @Omgemeraldddd, October 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Omgemeraldddd</span>
+      <span class="tweet-card-handle">@Omgemeraldddd</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Listen to your body." My body: Delete Microsoft Teams. Delete Outlook. Lie down for 8–10 hours. Touch grass. Roll around in the grass. Eat some grass. You're a cow now.</p>
+  <div class="tweet-card-date">October 2026</div>
+</div>
 We are all this cow.
 
 ---
@@ -141,48 +212,112 @@ We are all this cow.
 
 **18.** Kylie posted from the VS show and we are obsessed with the restraint:
 
-> *"best day ever @VictoriasSecret"*
-> — @KylieJenner, October 19, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Kyliejenner</span>
+      <span class="tweet-card-handle">@KylieJenner</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">best day ever @VictoriasSecret</p>
+  <div class="tweet-card-date">October 19, 2026</div>
+</div>
 Six words. $50 million. A queen.
 
 **19.** The Megan Thee Stallion 2011 tweet getting re-shared alongside her VS performance was the content of the century:
 
-> *"I swear ima b a victoria secret model when I grow up :) #youngandsexy"*
-> — @theestallion, June 24, 2011 (reshared October 19, 2026)
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Theestallion</span>
+      <span class="tweet-card-handle">@theestallion</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">I swear ima b a victoria secret model when I grow up :) #youngandsexy</p>
+  <div class="tweet-card-date">June 24, 2011 (reshared October 19, 2026)</div>
+</div>
 She said it at 16 and she meant it. Take notes.
 
 **20.** Natalia Bryant's VS debut had everyone reaching for tissues:
 
-> *"Watching Natalia Bryant walk the VS runway is the most emotional I've been about anything in weeks and I'm not even sorry"*
-> — fan reaction, October 18, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">fan reaction</span>
+      <span class="tweet-card-handle">@fan reaction</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Watching Natalia Bryant walk the VS runway is the most emotional I've been about anything in weeks and I'm not even sorry</p>
+  <div class="tweet-card-date">October 18, 2026</div>
+</div>
 **21.** The wings discourse was REAL:
 
-> *"Megan Moroney almost knocked a Victoria Secret model off the stage 💀 those wings were NOT it"*
-> — viral fan tweet, October 18, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">viral fan tweet</span>
+      <span class="tweet-card-handle">@viral fan tweet</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Megan Moroney almost knocked a Victoria Secret model off the stage 💀 those wings were NOT it</p>
+  <div class="tweet-card-date">October 18, 2026</div>
+</div>
 **22.** Nicole Kidman blushing at her own viral song moment absolutely sent us:
 
-> *"Nicole Kidman watching models walk to a song literally named 'Nicole Kidman' is the most chaotic energy the VS show has ever produced"*
-> — @PopBase era tweet, October 18, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Popbase Era Tweet</span>
+      <span class="tweet-card-handle">@PopBase era tweet</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Nicole Kidman watching models walk to a song literally named 'Nicole Kidman' is the most chaotic energy the VS show has ever produced</p>
+  <div class="tweet-card-date">October 18, 2026</div>
+</div>
 **23.** The comparison nobody asked for but everyone needed:
 
-> *"bella hadid is the blueprint, britney walked so she could run"*
-> — @sophiabirc34, October 19, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Sophiabirc34</span>
+      <span class="tweet-card-handle">@sophiabirc34</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">bella hadid is the blueprint, britney walked so she could run</p>
+  <div class="tweet-card-date">October 19, 2026</div>
+</div>
 **24.** The "twinkle fingers" moment between Gigi Hadid and Tate McRae genuinely confused and delighted X:
 
-> *"gigi hadid and tate mcrae doing jazz hands at each other on the vs runway is the most unhinged beautiful thing i've witnessed this week"*
-> — viral fan tweet, October 18, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">viral fan tweet</span>
+      <span class="tweet-card-handle">@viral fan tweet</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">gigi hadid and tate mcrae doing jazz hands at each other on the vs runway is the most unhinged beautiful thing i've witnessed this week</p>
+  <div class="tweet-card-date">October 18, 2026</div>
+</div>
 **25.** And finally, the most accurate take of the entire week:
 
-> *"we really just watched 2 hours of the victoria's secret fashion show and spent 90% of the time on twitter arguing about wing logistics"*
-> — @biteyfriend era, October 19, 2026
-
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Biteyfriend Era</span>
+      <span class="tweet-card-handle">@biteyfriend era</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">we really just watched 2 hours of the victoria's secret fashion show and spent 90% of the time on twitter arguing about wing logistics</p>
+  <div class="tweet-card-date">October 19, 2026</div>
+</div>
 Same. We are the same.
 
 ---

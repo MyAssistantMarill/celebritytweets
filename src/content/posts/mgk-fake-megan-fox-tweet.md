@@ -13,7 +13,17 @@ Someone on the internet cooked up a fake Machine Gun Kelly tweet so juicy, so pe
 
 The fabricated post, shared as a screenshot on Monday October 12th alongside recent photos of Megan Fox looking absolutely stunning, read:
 
-> *"Seeing these new pictures of Megan genuinely makes me wanna throw my phone into a f****** wall. I had the baddest woman to ever walk this planet in love with me and somehow found a way to f*** it all up. Imagine fumbling the girl of your dreams and then having to watch the entire world remind you how beautiful she is. I'll never forgive myself for that."*
+<div class="tweet-card">
+  <div class="tweet-card-header">
+    <div class="tweet-card-avatar">𝕏</div>
+    <div class="tweet-card-meta">
+      <span class="tweet-card-name">Machine Gun Kelly</span>
+      <span class="tweet-card-handle">@machinegunkelly</span>
+    </div>
+  </div>
+  <p class="tweet-card-text">Seeing these new pictures of Megan genuinely makes me wanna throw my phone into a f****** wall. I had the baddest woman to ever walk this planet in love with me and somehow found a way to f*** it all up. Imagine fumbling the girl of your dreams and then having to watch the entire world remind you how beautiful she is. I'll never forgive myself for that.</p>
+  <div class="tweet-card-date">October 12, 2026 · ⚠️ This tweet was fabricated — see below</div>
+</div>
 
 Was it real? No. Was it extremely well-written fan fiction that tapped directly into the cultural conversation around their split? Absolutely. The post spread *everywhere* — and the comments were a rollercoaster of sympathy, mockery, and people tagging their exes.
 

@@ -211,4 +211,14 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
     .footer-cols { flex-wrap: wrap; gap: 2rem; }
   }
   @media (max-width: 480px) { .logo svg { width: 175px; } }
+
+  /* Tweet Cards */
+  .tweet-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; margin: 1.25rem 0; box-shadow: var(--shadow-sm); max-width: 560px; }
+  .tweet-card-header { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.65rem; }
+  .tweet-card-avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--ink); color: white; display: flex; align-items: center; justify-content: center; font-size: 1rem; font-weight: 700; flex-shrink: 0; }
+  .tweet-card-meta { display: flex; flex-direction: column; gap: 0.1rem; }
+  .tweet-card-name { font-family: var(--font-head); font-size: 0.88rem; font-weight: 700; color: var(--ink); }
+  .tweet-card-handle { font-size: 0.78rem; color: var(--muted); }
+  .tweet-card-text { font-size: 0.95rem; color: var(--text); line-height: 1.55; white-space: pre-wrap; }
+  .tweet-card-date { font-size: 0.75rem; color: var(--muted); margin-top: 0.65rem; padding-top: 0.65rem; border-top: 1px solid var(--border); }
 </style>
