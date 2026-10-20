@@ -15,11 +15,12 @@ The fabricated post, shared as a screenshot on Monday October 12th alongside rec
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/machinegunkelly" alt="@machinegunkelly" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
       <span class="tweet-card-name">Machine Gun Kelly</span>
       <span class="tweet-card-handle">@machinegunkelly</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Seeing these new pictures of Megan genuinely makes me wanna throw my phone into a f****** wall. I had the baddest woman to ever walk this planet in love with me and somehow found a way to f*** it all up. Imagine fumbling the girl of your dreams and then having to watch the entire world remind you how beautiful she is. I'll never forgive myself for that.</p>
   <div class="tweet-card-date">October 12, 2026 · ⚠️ This tweet was fabricated — see below</div>

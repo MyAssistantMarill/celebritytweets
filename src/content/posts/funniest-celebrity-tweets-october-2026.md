@@ -73,11 +73,12 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/kellyclarkson" alt="@kellyclarkson" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Kellyclarkson</span>
+      <span class="tweet-card-name">Kelly Clarkson</span>
       <span class="tweet-card-handle">@kellyclarkson</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Just drove all the way to Brooklyn to check out this store I thought looked really rad and had a few things in mind to buy and literally was looked at as if I couldn't afford it and was told he could find something comparable for me. Wow, dude. You're an idiot and just lost a huge sale.</p>
   <div class="tweet-card-date">October 10, 2026</div>
@@ -86,11 +87,12 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/laineygossip" alt="@laineygossip" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Laineygossip Recap</span>
+      <span class="tweet-card-name">Lainey Gossip</span>
       <span class="tweet-card-handle">@laineygossip recap</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Kelly Clarkson is currently beefing with a Brooklyn business over a singing bird and it's unexpectedly become one of the internet's biggest talking points. A one-of-a-kind singing and dancing bird automaton, Michael.</p>
   <div class="tweet-card-date">October 2026</div>
@@ -99,11 +101,12 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/kellyclarkson" alt="@kellyclarkson" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Kellyclarkson</span>
+      <span class="tweet-card-name">Kelly Clarkson</span>
       <span class="tweet-card-handle">@kellyclarkson</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">So you're not only rude, you're also a liar. Got it.</p>
   <div class="tweet-card-date">October 11, 2026</div>
@@ -118,11 +121,12 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/danjlevy" alt="@danjlevy" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Danjlevy</span>
+      <span class="tweet-card-name">Dan Levy</span>
       <span class="tweet-card-handle">@danjlevy</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Dear @nbcsnl, having a host whose entire MO is to make marginalized people feel like sht is making me feel like sht. Just FYI.</p>
   <div class="tweet-card-date">October 11, 2026</div>
@@ -131,11 +135,12 @@ She tweeted this dream at 16. She WALKED IT at 31. Manifest everything.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/_alexbrassel" alt="@_alexbrassel" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name"> Alexbrassel</span>
+      <span class="tweet-card-name">Alex Brassel</span>
       <span class="tweet-card-handle">@_alexbrassel</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Ok I'll bite." [photo of gym outfit]</p>
   <div class="tweet-card-date">October 15, 2026</div>
@@ -152,9 +157,10 @@ The audacity. The chaos. The timeline.
   <div class="tweet-card-header">
     <div class="tweet-card-avatar">𝕏</div>
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Tiffanyhaddish</span>
+      <span class="tweet-card-name">Tiffany Haddish</span>
       <span class="tweet-card-handle">@TiffanyHaddish</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">OMG! I have been on hold with TSA for almost TWO HOURS! 😩 TSA needs to hire some help! At this point, I decided to become part of the solution. 😂 While sitting on hold, I went to their website, filled out a job application, and already scheduled myself an interview!</p>
   <div class="tweet-card-date">October 15, 2026</div>
@@ -169,11 +175,12 @@ The follow-through. The commitment. The federal employment paperwork. An icon.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/softboy_w" alt="@softboy_w" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Softboy W</span>
+      <span class="tweet-card-name">softboy_w</span>
       <span class="tweet-card-handle">@softboy_w</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Dear Apple, Nobody needs to know I'm emailing from my iPhone. Sent from my iPhone</p>
   <div class="tweet-card-date">October 16, 2026</div>
@@ -184,9 +191,10 @@ The follow-through. The commitment. The federal employment paperwork. An icon.
   <div class="tweet-card-header">
     <div class="tweet-card-avatar">𝕏</div>
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Omgemeraldddd</span>
+      <span class="tweet-card-name">omgemeraldddd</span>
       <span class="tweet-card-handle">@Omgemeraldddd</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Logging onto the dark web tomorrow (Teams, Outlook, and Excel).</p>
   <div class="tweet-card-date">October 18, 2026</div>
@@ -197,9 +205,10 @@ The follow-through. The commitment. The federal employment paperwork. An icon.
   <div class="tweet-card-header">
     <div class="tweet-card-avatar">𝕏</div>
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Omgemeraldddd</span>
+      <span class="tweet-card-name">omgemeraldddd</span>
       <span class="tweet-card-handle">@Omgemeraldddd</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Listen to your body." My body: Delete Microsoft Teams. Delete Outlook. Lie down for 8–10 hours. Touch grass. Roll around in the grass. Eat some grass. You're a cow now.</p>
   <div class="tweet-card-date">October 2026</div>
@@ -214,11 +223,12 @@ We are all this cow.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/KylieJenner" alt="@KylieJenner" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Kyliejenner</span>
+      <span class="tweet-card-name">Kylie Jenner</span>
       <span class="tweet-card-handle">@KylieJenner</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">best day ever @VictoriasSecret</p>
   <div class="tweet-card-date">October 19, 2026</div>
@@ -229,11 +239,12 @@ Six words. $50 million. A queen.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/theestallion" alt="@theestallion" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
       <span class="tweet-card-name">Theestallion</span>
       <span class="tweet-card-handle">@theestallion</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">I swear ima b a victoria secret model when I grow up :) #youngandsexy</p>
   <div class="tweet-card-date">June 24, 2011 (reshared October 19, 2026)</div>
@@ -249,6 +260,7 @@ She said it at 16 and she meant it. Take notes.
       <span class="tweet-card-name">fan reaction</span>
       <span class="tweet-card-handle">@fan reaction</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Watching Natalia Bryant walk the VS runway is the most emotional I've been about anything in weeks and I'm not even sorry</p>
   <div class="tweet-card-date">October 18, 2026</div>
@@ -262,6 +274,7 @@ She said it at 16 and she meant it. Take notes.
       <span class="tweet-card-name">viral fan tweet</span>
       <span class="tweet-card-handle">@viral fan tweet</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Megan Moroney almost knocked a Victoria Secret model off the stage 💀 those wings were NOT it</p>
   <div class="tweet-card-date">October 18, 2026</div>
@@ -272,9 +285,10 @@ She said it at 16 and she meant it. Take notes.
   <div class="tweet-card-header">
     <div class="tweet-card-avatar">𝕏</div>
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Popbase Era Tweet</span>
+      <span class="tweet-card-name">PopBase</span>
       <span class="tweet-card-handle">@PopBase era tweet</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Nicole Kidman watching models walk to a song literally named 'Nicole Kidman' is the most chaotic energy the VS show has ever produced</p>
   <div class="tweet-card-date">October 18, 2026</div>
@@ -283,11 +297,12 @@ She said it at 16 and she meant it. Take notes.
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/sophiabirc34" alt="@sophiabirc34" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Sophiabirc34</span>
+      <span class="tweet-card-name">sophiabirc34</span>
       <span class="tweet-card-handle">@sophiabirc34</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">bella hadid is the blueprint, britney walked so she could run</p>
   <div class="tweet-card-date">October 19, 2026</div>
@@ -301,6 +316,7 @@ She said it at 16 and she meant it. Take notes.
       <span class="tweet-card-name">viral fan tweet</span>
       <span class="tweet-card-handle">@viral fan tweet</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">gigi hadid and tate mcrae doing jazz hands at each other on the vs runway is the most unhinged beautiful thing i've witnessed this week</p>
   <div class="tweet-card-date">October 18, 2026</div>
@@ -311,9 +327,10 @@ She said it at 16 and she meant it. Take notes.
   <div class="tweet-card-header">
     <div class="tweet-card-avatar">𝕏</div>
     <div class="tweet-card-meta">
-      <span class="tweet-card-name">Biteyfriend Era</span>
+      <span class="tweet-card-name">biteyfriend</span>
       <span class="tweet-card-handle">@biteyfriend era</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">we really just watched 2 hours of the victoria's secret fashion show and spent 90% of the time on twitter arguing about wing logistics</p>
   <div class="tweet-card-date">October 19, 2026</div>

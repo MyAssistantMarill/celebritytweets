@@ -65,6 +65,7 @@ Speaking of wings — Megan Moroney's oversized pink ones became the most talked
       <span class="tweet-card-name">X reply</span>
       <span class="tweet-card-handle">@viral reply</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">In the first clip it looks like she did it on purpose</p>
   <div class="tweet-card-date">October 18, 2026</div>
@@ -78,11 +79,12 @@ During Kylie Jenner's Fantasy Bra walk, the song playing was "Angel of My Dreams
 
 <div class="tweet-card">
   <div class="tweet-card-header">
-    <div class="tweet-card-avatar">𝕏</div>
+    <img class="tweet-card-avatar" src="https://unavatar.io/twitter/jadethirlwall" alt="@jadethirlwall" onerror="this.style.background='#1E1E1E';this.src=''" />
     <div class="tweet-card-meta">
       <span class="tweet-card-name">Jade Thirlwall</span>
       <span class="tweet-card-handle">@jadethirlwall</span>
     </div>
+    <span class="tweet-card-x">𝕏</span>
   </div>
   <p class="tweet-card-text">Nobody on this tube knows that my debut single was playing while Kylie Jenner wore the fantasy bra at the VS fashion show.</p>
   <div class="tweet-card-date">October 19, 2026</div>
