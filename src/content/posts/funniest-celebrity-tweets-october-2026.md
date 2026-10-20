@@ -1,6 +1,6 @@
 ---
-title: "25 Celebrity Tweets That Had Everyone Talking This Week (Oct. 13–19, 2026)"
-description: "Britney declaring herself a prophecy, Kylie's $50M bra debut, Tiffany Haddish applying for a TSA job mid-hold — the 25 best celebrity tweets of the week."
+title: "27 Funniest Celebrity Tweets That Absolutely Broke the Internet This Week"
+description: "Britney declared herself a prophecy, Kylie wore a $50M bra, and Tiffany Haddish applied for a TSA job while still on hold. October 2026 is undefeated."
 pubDate: "2026-10-20"
 category: "Drama"
 tags: ["celebrity tweets", "funny tweets", "viral tweets", "october 2026", "celebrity drama", "weekly roundup"]
