@@ -69,3 +69,53 @@
 - Times a celebrity's old tweet resurfaced at the worst possible moment
 - Celebrities who accidentally tweeted something meant to be a DM
 - The funniest celebrity typo tweets that went viral
+
+---
+
+## Marketing Ideas (Automated)
+
+### 🐦 X/Twitter Auto-posting
+- Post teaser tweet after every article with headline, pull quote, celebrity @mentions, hashtags + link
+- Fan bases are huge — one RT from the right account = tens of thousands of clicks
+
+### 📌 Pinterest Auto-pins
+- Celebrity content has long shelf life on Pinterest
+- Auto-generate pin image per article with keyword-rich description
+- People search "Taylor Swift feud explained" etc. there constantly — pure passive SEO
+
+### 🔴 Reddit Strategy
+- Target: r/Fauxmoi, r/popheads, r/KUWTK, r/entertainment
+- Post naturally timed to conversations already happening
+- Don't spam — be a community participant first
+
+### ❓ Quora Answer Automation
+- Monitor questions about celebrities we've covered
+- Write detailed answers, link back to relevant article
+- High authority backlinks + organic traffic
+
+### 📧 Weekly Email Digest (Sunday)
+- Compile top 3 articles of the week
+- Subject line: "☕ Your weekly celebrity chaos recap"
+- Grows into a direct traffic channel independent of algorithms
+
+### 🔔 Web Push Notifications
+- Add OneSignal (free) to site
+- Subscribers get push notification on every new article
+- Celebrity gossip readers click push notifications at very high rates
+
+### 🔍 Google Trends Pre-research
+- Before each daily article, check Google Trends for spiking celebrity names
+- Write about whoever is trending hardest right now
+- Compounds over time: more indexed articles = more entry points
+
+### 🔗 Auto Internal Linking
+- Every new article, scan existing articles and add relevant internal links
+- Boosts older articles, keeps readers on site longer, Google loves it
+
+### 📰 Google News Submission
+- Celebrity gossip sites approved for Google News see 10-50x traffic spikes
+- Requires: daily publishing schedule + About page + author bylines (all done)
+- Submit at: https://publishercenter.google.com
+
+### 🔄 Auto-ping Google Indexing API
+- Already implemented — pings Google within seconds of each publish

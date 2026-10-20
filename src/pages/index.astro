@@ -6,102 +6,124 @@ const posts = (await getCollection('posts'))
   .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 
 const featured = posts[0];
-const rest = posts.slice(1);
+const secondary = posts.slice(1, 4);
+const rest = posts.slice(4);
 ---
 
-<BaseLayout title="CelebrityTweets" description="Your daily dose of celebrity tweet drama, feuds, and gossip. Fresh tea every day.">
+<BaseLayout title="CelebrityTweets" description="Your daily dose of celebrity tweet drama, feuds, clapbacks, and viral moments. Fresh tea every single day.">
 
-  {featured && (
-    <section class="hero">
-      <a href={`/posts/${featured.id}`} class="hero-link">
-        {featured.data.image && <img src={featured.data.image} alt={featured.data.title} class="hero-img" />}
-        <div class="hero-content">
-          <span class="category-tag">{featured.data.category}</span>
-          <h1>{featured.data.title}</h1>
-          <p>{featured.data.description}</p>
-          <span class="meta">{new Date(featured.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
-        </div>
-      </a>
-    </section>
-  )}
+  <div class="homepage">
 
-  <section class="grid-section">
-    <h2 class="section-title">🔥 Latest Tea</h2>
-    <div class="article-grid">
-      {rest.map(post => (
-        <a href={`/posts/${post.id}`} class="card">
-          {post.data.image && <img src={post.data.image} alt={post.data.title} class="card-img" />}
-          <div class="card-body">
-            <span class="category-tag">{post.data.category}</span>
-            <h3>{post.data.title}</h3>
-            <p>{post.data.description}</p>
-            <span class="meta">{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
+    <!-- ── Hero ─────────────────────────────────────── -->
+    {featured && (
+      <section class="hero-section">
+        <a href={`/posts/${featured.id}`} class="hero-card">
+          <div class="hero-img-wrap">
+            {featured.data.image
+              ? <img src={featured.data.image} alt={featured.data.title} class="hero-img" width="800" height="450" loading="eager" />
+              : <div class="hero-img-placeholder"></div>
+            }
+            <div class="hero-overlay"></div>
+          </div>
+          <div class="hero-content">
+            <span class="cat-tag">{featured.data.category}</span>
+            <h1 class="hero-title">{featured.data.title}</h1>
+            <p class="hero-desc">{featured.data.description}</p>
+            <div class="hero-meta">
+              <span>📅 {new Date(featured.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</span>
+              <span class="read-more-pill">Read →</span>
+            </div>
           </div>
         </a>
-      ))}
-    </div>
-  </section>
+      </section>
+    )}
+
+    <!-- ── Secondary 3-up ────────────────────────────── -->
+    {secondary.length > 0 && (
+      <section class="secondary-section container">
+        <h2 class="section-title">🔥 <span>Latest Tea</span></h2>
+        <div class="secondary-grid">
+          {secondary.map(post => (
+            <a href={`/posts/${post.id}`} class="card">
+              {post.data.image && <img src={post.data.image} alt={post.data.title} class="card-img" width="400" height="225" loading="lazy" />}
+              <div class="card-body">
+                <span class={`cat-tag ${post.data.category.toLowerCase().replace(' ', '-')}`}>{post.data.category}</span>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.description}</p>
+                <div class="card-meta">{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- ── More Articles ──────────────────────────────── -->
+    {rest.length > 0 && (
+      <section class="more-section container">
+        <h2 class="section-title">📰 <span>More Stories</span></h2>
+        <div class="more-grid">
+          {rest.map(post => (
+            <a href={`/posts/${post.id}`} class="more-card">
+              {post.data.image && <img src={post.data.image} alt={post.data.title} class="more-img" width="180" height="120" loading="lazy" />}
+              <div class="more-body">
+                <span class={`cat-tag ${post.data.category.toLowerCase().replace(' ', '-')}`}>{post.data.category}</span>
+                <h3>{post.data.title}</h3>
+                <p class="more-date">{new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+  </div>
 
 </BaseLayout>
 
 <style>
-  .hero { margin: 1.5rem 0 2rem; }
-  .hero-link {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
-    border-radius: 16px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    transition: transform 0.2s;
+  .homepage { padding-bottom: 3rem; }
+
+  /* Hero */
+  .hero-section { margin-bottom: 3rem; }
+  .hero-card { display: grid; grid-template-columns: 1fr 1fr; min-height: 460px; background: var(--ink); text-decoration: none; color: inherit; overflow: hidden; }
+  .hero-img-wrap { position: relative; overflow: hidden; }
+  .hero-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+  .hero-card:hover .hero-img { transform: scale(1.03); }
+  .hero-img-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #1a3a5c, #0d1f33); }
+  .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to right, transparent 60%, rgba(13,13,13,0.4)); }
+  .hero-content { padding: 3rem 2.5rem; display: flex; flex-direction: column; justify-content: center; gap: 1rem; background: var(--ink); }
+  .hero-title { font-family: var(--font-display); font-size: 2rem; font-weight: 800; line-height: 1.15; color: white; letter-spacing: -0.03em; }
+  .hero-desc { font-size: 1rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
+  .hero-meta { display: flex; align-items: center; justify-content: space-between; font-size: 0.8rem; color: rgba(255,255,255,0.45); margin-top: 0.5rem; }
+  .read-more-pill { background: var(--red); color: white; font-family: var(--font-head); font-weight: 700; font-size: 0.75rem; padding: 0.3rem 0.9rem; border-radius: 20px; transition: background 0.2s; }
+  .hero-card:hover .read-more-pill { background: var(--red-dark); }
+
+  /* Secondary 3-up */
+  .secondary-section { margin-bottom: 3rem; }
+  .secondary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+
+  /* More articles list */
+  .more-section { }
+  .more-grid { display: flex; flex-direction: column; gap: 1px; background: var(--border); border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border); }
+  .more-card { display: grid; grid-template-columns: 160px 1fr; gap: 0; background: var(--card); text-decoration: none; color: inherit; transition: background 0.15s; }
+  .more-card:hover { background: #F0F7FF; }
+  .more-img { width: 160px; height: 100px; object-fit: cover; }
+  .more-body { padding: 0.85rem 1.1rem; display: flex; flex-direction: column; gap: 0.35rem; justify-content: center; }
+  .more-body h3 { font-family: var(--font-head); font-size: 0.9rem; font-weight: 700; line-height: 1.35; color: var(--ink-mid); }
+  .more-date { font-size: 0.72rem; color: #9CA3AF; margin-top: 0.2rem; }
+
+  /* Responsive */
+  @media (max-width: 900px) {
+    .hero-card { grid-template-columns: 1fr; min-height: auto; }
+    .hero-img-wrap { height: 260px; }
+    .hero-content { padding: 1.75rem 1.5rem; }
+    .hero-title { font-size: 1.5rem; }
+    .secondary-grid { grid-template-columns: 1fr 1fr; }
   }
-  .hero-link:hover { transform: translateY(-2px); }
-  .hero-img { width: 100%; height: 340px; object-fit: cover; }
-  .hero-content {
-    padding: 2.5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.75rem;
-    color: white;
-  }
-  .hero-content h1 { font-family: 'Poppins', sans-serif; font-size: 1.9rem; font-weight: 800; line-height: 1.2; }
-  .hero-content p { opacity: 0.9; }
-  .section-title {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    margin-bottom: 1.25rem;
-    border-left: 4px solid var(--red);
-    padding-left: 0.75rem;
-  }
-  .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; }
-  .card {
-    background: var(--white);
-    border-radius: 12px;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    transition: transform 0.2s, box-shadow 0.2s;
-    border: 1px solid var(--gray-mid);
-  }
-  .card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.12); }
-  .card-img { width: 100%; height: 180px; object-fit: cover; }
-  .card-body { padding: 1rem; display: flex; flex-direction: column; gap: 0.5rem; }
-  .card-body h3 { font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 700; line-height: 1.3; }
-  .card-body p { font-size: 0.875rem; color: #555; }
-  .category-tag { background: var(--red); }
-  .category-tag.throwback {
-    background: linear-gradient(135deg, #B8860B, #DAA520);
-    font-size: 0.75rem;
-  }
-  .meta { font-size: 0.8rem; color: #888; }
-  @media (max-width: 768px) {
-    .hero-link { grid-template-columns: 1fr; }
-    .hero-img { height: 200px; }
-    .hero-content { padding: 1.25rem; }
-    .hero-content h1 { font-size: 1.3rem; }
+  @media (max-width: 600px) {
+    .secondary-grid { grid-template-columns: 1fr; }
+    .more-card { grid-template-columns: 110px 1fr; }
+    .more-img { width: 110px; height: 80px; }
   }
 </style>

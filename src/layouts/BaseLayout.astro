@@ -24,8 +24,6 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href={canonicalUrl} />
     <title>{fullTitle}</title>
-
-    <!-- Open Graph -->
     <meta property="og:type" content={article ? 'article' : 'website'} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:title" content={fullTitle} />
@@ -35,61 +33,83 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
     {pubDate && <meta property="article:published_time" content={pubDate} />}
     {updatedDate && <meta property="article:modified_time" content={updatedDate} />}
     {author && <meta property="article:author" content={author} />}
-
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={`${siteUrl}${image}`} />
     <meta name="twitter:site" content="@CelebTweets" />
-
-    <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4883779928557310" crossorigin="anonymous"></script>
-
-    <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="SJ_vKN7ikuzeBCEOKq4XJUsW6-2pnOVg3_fH3Ivs8XM" />
-
-    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
-
-    <!-- X/Twitter embed widget (loaded once globally) -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
-
   <body>
-    <!-- Header -->
     <header class="site-header">
-      <div class="container">
-        <a href="/" class="logo">⭐ CelebrityTweets</a>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/category/feuds">Feuds</a>
-          <a href="/category/drama">Drama</a>
-          <a href="/category/shade">Shade</a>
-          <a href="/throwback-thursday">Throwbacks</a>
-          <a href="/about">About</a>
-        </nav>
+      <div class="header-main">
+        <div class="container header-inner">
+          <a href="/" class="logo" aria-label="CelebrityTweets Home">
+            <svg width="210" height="40" viewBox="0 0 210 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="16,2 20,12 31,12 22.5,18.5 26,29 16,22.5 6,29 9.5,18.5 1,12 12,12" fill="#E87070"/>
+              <text x="38" y="28" font-family="Syne, sans-serif" font-weight="800" font-size="22" fill="#FFFFFF" letter-spacing="-0.5">Celebrity</text>
+              <text x="139" y="28" font-family="Syne, sans-serif" font-weight="800" font-size="22" fill="#89CFF0" letter-spacing="-0.5">Tweets</text>
+            </svg>
+          </a>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="/category/feuds">Feuds</a>
+            <a href="/category/drama">Drama</a>
+            <a href="/category/shade">Shade</a>
+            <a href="/throwback-thursday">⏪ Throwbacks</a>
+            <a href="/about">About</a>
+          </nav>
+          <button class="nav-toggle" aria-label="Toggle menu" onclick="this.closest('header').querySelector('.main-nav').classList.toggle('open')">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <div class="ticker-bar" aria-hidden="true">
+        <div class="container ticker-inner">
+          <span class="ticker-label">🔥 HOT</span>
+          <span>Fresh celebrity drama daily · Top X Tuesdays · Throwback Thursdays · No politics, just tea ☕</span>
+        </div>
       </div>
     </header>
 
-    <main class="container">
+    <main>
       <slot />
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <p>© {new Date().getFullYear()} CelebrityTweets.com · Celebrity gossip & tweet drama</p>
-        <nav class="footer-nav">
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-          <a href="/sitemap.xml">Sitemap</a>
-        </nav>
-        <p class="disclaimer">We are not affiliated with any celebrities or social media platforms. All tweets are public content embedded via official X/Twitter embed codes. We verify tweets before publishing.</p>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a href="/" aria-label="CelebrityTweets">
+            <svg width="170" height="30" viewBox="0 0 170 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="11,1 14,8.5 22,8.5 16,13.5 18.5,21 11,16.5 3.5,21 6,13.5 0,8.5 8,8.5" fill="#E87070"/>
+              <text x="28" y="20" font-family="Syne, sans-serif" font-weight="800" font-size="16" fill="#FFFFFF">Celebrity<tspan fill="#89CFF0">Tweets</tspan></text>
+            </svg>
+          </a>
+          <p>Your daily dose of celebrity tweet drama, feuds, and viral moments. No politics. Just pure tea.</p>
+        </div>
+        <div class="footer-cols">
+          <div>
+            <h4>Browse</h4>
+            <a href="/category/feuds">Feuds</a>
+            <a href="/category/drama">Drama</a>
+            <a href="/category/shade">Shade</a>
+            <a href="/throwback-thursday">Throwbacks</a>
+          </div>
+          <div>
+            <h4>Site</h4>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/sitemap.xml">Sitemap</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© {new Date().getFullYear()} CelebrityTweets.com · All tweets are public content embedded via official X/Twitter embed codes.</p>
       </div>
     </footer>
   </body>
@@ -98,105 +118,88 @@ const fullTitle = title === 'CelebrityTweets' ? title : `${title} | CelebrityTwe
 <style is:global>
   :root {
     --blue: #89CFF0;
-    --blue-dark: #4A90D9;
+    --blue-dark: #2C7BB5;
+    --blue-mid: #4A90D9;
     --red: #E87070;
-    --white: #FFFFFF;
-    --black: #1A1A1A;
-    --gray: #F5F5F5;
-    --gray-mid: #E0E0E0;
+    --red-dark: #C94F4F;
+    --ink: #0D0D0D;
+    --ink-mid: #1E1E1E;
     --text: #2C2C2C;
+    --muted: #6B7280;
+    --surface: #F8F9FA;
+    --card: #FFFFFF;
+    --border: #E5E7EB;
+    --font-display: 'Syne', sans-serif;
+    --font-head: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.09);
+    --shadow-lg: 0 10px 28px rgba(0,0,0,0.13);
   }
-
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-
-  body {
-    font-family: 'Inter', sans-serif;
-    background: var(--white);
-    color: var(--text);
-    line-height: 1.6;
-  }
-
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1.25rem;
-  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: var(--font-body); background: var(--surface); color: var(--text); line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; text-decoration: none; }
+  .container { max-width: 1160px; margin: 0 auto; padding: 0 1.25rem; }
 
   /* Header */
-  .site-header {
-    background: var(--blue-dark);
-    padding: 1rem 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  }
-
-  .site-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .logo {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 1.4rem;
-    color: var(--white);
-    text-decoration: none;
-    letter-spacing: -0.5px;
-  }
-
-  nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
-  nav a {
-    color: rgba(255,255,255,0.9);
-    text-decoration: none;
-    font-size: 0.9rem;
-    font-weight: 500;
-    transition: color 0.2s;
-  }
-  nav a:hover { color: var(--blue); }
-
-  /* Footer */
-  .site-footer {
-    background: var(--black);
-    color: rgba(255,255,255,0.8);
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 3rem;
-    font-size: 0.9rem;
-  }
-  .footer-nav { display: flex; justify-content: center; gap: 1.5rem; margin: 0.75rem 0; }
-  .footer-nav a { color: var(--blue); text-decoration: none; font-size: 0.85rem; }
-  .footer-nav a:hover { text-decoration: underline; }
-  .disclaimer { font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+  .site-header { background: var(--ink); position: sticky; top: 0; z-index: 200; }
+  .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding-top: 0.85rem; padding-bottom: 0.85rem; }
+  .logo { flex-shrink: 0; }
+  .logo svg { overflow: visible; }
+  .main-nav { display: flex; align-items: center; gap: 2rem; }
+  .main-nav a { font-family: var(--font-head); font-size: 0.78rem; font-weight: 700; color: rgba(255,255,255,0.75); letter-spacing: 0.05em; text-transform: uppercase; transition: color 0.15s; white-space: nowrap; }
+  .main-nav a:hover { color: var(--blue); }
+  .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 6px; flex-shrink: 0; }
+  .nav-toggle span { display: block; width: 22px; height: 2px; background: rgba(255,255,255,0.8); border-radius: 2px; }
+  .ticker-bar { background: var(--red); padding: 0.3rem 0; }
+  .ticker-inner { display: flex; align-items: center; gap: 0.75rem; font-size: 0.75rem; color: rgba(255,255,255,0.92); font-weight: 500; white-space: nowrap; overflow: hidden; }
+  .ticker-label { background: white; color: var(--red); font-size: 0.65rem; font-weight: 800; padding: 0.15rem 0.5rem; border-radius: 4px; letter-spacing: 0.04em; flex-shrink: 0; }
 
   /* Category Tags */
-  .category-tag {
-    display: inline-block;
-    background: var(--red);
-    color: white;
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    padding: 0.2rem 0.6rem;
-    border-radius: 20px;
-    width: fit-content;
-  }
-  .category-tag.throwback {
-    background: linear-gradient(135deg, #B8860B, #DAA520);
-    font-size: 0.75rem;
-  }
+  .cat-tag, .category-tag { display: inline-flex; align-items: center; background: var(--red); color: white; font-family: var(--font-head); font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; padding: 0.22rem 0.6rem; border-radius: 20px; white-space: nowrap; width: fit-content; }
+  .cat-tag.throwback, .category-tag.throwback { background: linear-gradient(135deg, #96700A, #C9921A); }
+  .cat-tag.shade { background: #7B52AB; }
+  .cat-tag.drama { background: var(--blue-dark); }
+  .cat-tag.collabs { background: #2A9D5C; }
 
-  /* Utility */
-  a { color: var(--blue-dark); }
-  img { max-width: 100%; height: auto; }
+  /* Cards */
+  .card { background: var(--card); border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-sm); transition: transform 0.2s ease, box-shadow 0.2s ease; display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+  .card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); }
+  .card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+  .card-body { padding: 1rem 1.1rem 1.25rem; display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }
+  .card-body h2, .card-body h3 { font-family: var(--font-head); font-size: 0.975rem; font-weight: 700; line-height: 1.35; color: var(--ink-mid); }
+  .card-body p { font-size: 0.83rem; color: var(--muted); line-height: 1.55; }
+  .card-meta { font-size: 0.73rem; color: #9CA3AF; margin-top: auto; padding-top: 0.6rem; }
 
-  @media (max-width: 600px) {
-    .logo { font-size: 1.1rem; }
-    nav { gap: 0.75rem; }
-    nav a { font-size: 0.8rem; }
+  /* Section Titles */
+  .section-title { font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+  .section-title::after { content: ''; flex: 1; height: 2px; background: linear-gradient(to right, var(--border), transparent); }
+
+  /* Footer */
+  .site-footer { background: var(--ink); color: rgba(255,255,255,0.65); margin-top: 4rem; }
+  .footer-grid { display: grid; grid-template-columns: 1fr auto; gap: 4rem; padding: 3rem 1.25rem 2.5rem; align-items: start; }
+  .footer-brand p { font-size: 0.83rem; margin-top: 0.85rem; line-height: 1.65; max-width: 300px; color: rgba(255,255,255,0.5); }
+  .footer-cols { display: flex; gap: 3.5rem; }
+  .footer-cols > div { display: flex; flex-direction: column; gap: 0.6rem; }
+  .footer-cols h4 { font-family: var(--font-head); font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--blue); margin-bottom: 0.25rem; }
+  .footer-cols a { font-size: 0.83rem; color: rgba(255,255,255,0.55); transition: color 0.15s; }
+  .footer-cols a:hover { color: white; }
+  .footer-bottom { border-top: 1px solid rgba(255,255,255,0.07); padding: 1.1rem 1.25rem; text-align: center; font-size: 0.72rem; color: rgba(255,255,255,0.3); }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: #111; flex-direction: column; align-items: flex-start; gap: 0; padding: 0.5rem 1.25rem 1rem; border-top: 1px solid rgba(255,255,255,0.08); z-index: 100; }
+    .main-nav.open { display: flex; }
+    .main-nav a { padding: 0.65rem 0; font-size: 0.9rem; width: 100%; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .nav-toggle { display: flex; }
+    .site-header { position: relative; }
+    .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .footer-cols { flex-wrap: wrap; gap: 2rem; }
   }
+  @media (max-width: 480px) { .logo svg { width: 175px; } }
 </style>
