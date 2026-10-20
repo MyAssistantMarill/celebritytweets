@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Skip builds when commit message contains [skip ci] or [ci skip]
+[build.processing]
+  skip_processing = false
