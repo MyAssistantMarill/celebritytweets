@@ -3,7 +3,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const posts = (await getCollection('posts'))
-  .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+  .sort((a, b) => {
+    // Featured articles always first
+    if (a.data.featured && !b.data.featured) return -1;
+    if (!a.data.featured && b.data.featured) return 1;
+    // Then by date descending
+    return new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf();
+  });
 
 const featured = posts[0];
 const secondary = posts.slice(1, 4);

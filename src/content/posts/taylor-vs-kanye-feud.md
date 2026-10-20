@@ -1,7 +1,7 @@
 ---
 title: "Taylor Swift vs. Kanye West: The Tweet Feud That Broke the Internet"
 description: "From the 2009 VMAs to explosive tweets — we break down the most iconic celebrity feud of the decade and where things stand today."
-pubDate: "2026-10-20"
+pubDate: "2026-10-14"
 category: "Feuds"
 tags: ["TaylorSwift", "KanyeWest", "celebrity", "feud", "twitter"]
 image: "/images/taylor-kanye-feud.jpg"

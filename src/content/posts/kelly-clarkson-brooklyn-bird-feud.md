@@ -1,7 +1,7 @@
 ---
 title: "Kelly Clarkson vs. A Brooklyn Bird: The Pettiest Celebrity Feud of 2026"
 description: "Kelly Clarkson wanted to buy a $15,000 singing robot bird. A Brooklyn shop said no. Chaos ensued. 46 million views later, here we are."
-pubDate: "2026-10-20"
+pubDate: "2026-10-16"
 category: "Feuds"
 tags: ["KellyClarkson", "ArtOfPlay", "celebrity", "twitter", "drama", "brooklyn"]
 image: "/images/kelly-clarkson-bird.jpg"

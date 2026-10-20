@@ -5,6 +5,7 @@ pubDate: "2026-10-20"
 category: "Drama"
 tags: ["VictoriasSecret", "VSFashionShow", "KylieJenner", "MeganTheeStallion", "BellaHadid", "TateMcRae", "JadeThirlwall", "celebrity", "fashion"]
 image: "/images/vs-fashion-show-2026.jpg"
+featured: true
 ---
 
 The Victoria's Secret Fashion Show returned to Los Angeles on October 18th, 2026, and delivered more viral moments in two hours than most shows produce in a full season. Twitter erupted, X melted down, and we are still talking about it. Here are the 10 moments that broke the internet.

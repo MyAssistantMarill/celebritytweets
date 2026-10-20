@@ -13,6 +13,7 @@ const posts = defineCollection({
     image: z.string().optional(),
     author: z.string().optional(),
     updatedDate: z.string().optional(),
+    featured: z.boolean().optional(),
   }),
 });
 
