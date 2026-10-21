@@ -1,9 +1,9 @@
 ---
-title: "32 Celebrity Tweets That Aged Horribly (They Really Should Have Deleted These)"
-description: "From Hailey Baldwin simping over Jelena to Kanye's 'quiet life' pledge — these celebrity tweets didn't just age badly, they aged catastrophically. You can't make this up."
+title: "32 Celebrity Tweets That Aged Horribly — They Really Should Have Deleted These"
+description: "Hailey Bieber called Jelena "the perfect relationship." Kanye pledged a "quiet life." Tristan tweeted "FAKE NEWS." The internet never forgets."
 pubDate: "2026-10-20"
 category: "Drama"
-tags: ["celebrity tweets", "aged badly", "Kanye West", "Kim Kardashian", "Hailey Bieber", "Taylor Swift", "drama", "receipts"]
+tags: ["celebrity tweets aged badly", "celebrity tweets that didn't age well", "HaileyBieber", "KanyeWest", "KimKardashian", "TristanThompson", "embarrassing celebrity tweets", "celebrity receipts"]
 image: "/images/tweets-aged-badly-2026.jpg"
 ---
 *Somewhere, there's a celebrity desperately refreshing their profile hoping you forgot. You didn't. The internet never forgets. And neither do we.*

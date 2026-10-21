@@ -1,9 +1,9 @@
 ---
-title: "Val Chmerkovskiy Apologizes After Will Smith Slap Reference Goes Sideways on DWTS"
-description: "Val defended his wife on social media with a Will Smith slap reference and... yeah. That did not land the way he intended. At all."
+title: "Val Chmerkovskiy's Will Smith Slap Tweet Gets Him in Trouble on DWTS"
+description: "Val Chmerkovskiy made a Will Smith slap joke defending his wife online and ended up issuing a full public apology on Dancing With The Stars."
 pubDate: "2026-10-17"
 category: "Drama"
-tags: ["DWTS", "ValChmerkovskiy", "CarrieAnnInaba", "WillSmith", "celebrity", "twitter"]
+tags: ["ValChmerkovskiy", "DWTS 2026", "Dancing With The Stars", "WillSmith slap", "val chmerkovskiy apology", "celebrity twitter 2026", "CarrieAnnInaba"]
 image: "/images/val-dwts-drama.jpg"
 ---
 

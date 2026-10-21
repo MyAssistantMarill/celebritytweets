@@ -1,9 +1,9 @@
 ---
-title: "The Charli XCX VMAs Side-Eye Was NOT About Taylor Swift — Calm Down, Twitter"
-description: "A viral clip showed Charli XCX looking deeply unimpressed at the 2026 VMAs. The internet immediately blamed Taylor Swift. They were wrong. Spectacularly wrong."
+title: "Charli XCX VMAs 2026 Side-Eye: Who Was She Actually Looking At?"
+description: "Everyone said Charli XCX was side-eyeing Taylor Swift at the 2026 VMAs. The truth is way more awkward and way more interesting."
 pubDate: "2026-10-18"
 category: "Drama"
-tags: ["CharliXCX", "TaylorSwift", "VMAs", "celebrity", "twitter", "misinformation"]
+tags: ["CharliXCX", "TaylorSwift", "VMAs 2026", "brat", "celebrity drama", "charli xcx side eye", "MTV VMAs", "viral moment"]
 image: "/images/charli-xcx-vmas.jpg"
 ---
 

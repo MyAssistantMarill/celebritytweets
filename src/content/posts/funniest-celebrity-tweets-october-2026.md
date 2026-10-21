@@ -1,9 +1,9 @@
 ---
-title: "27 Funniest Celebrity Tweets That Absolutely Broke the Internet This Week"
-description: "Britney declared herself a prophecy, Kylie wore a $50M bra, and Tiffany Haddish applied for a TSA job while still on hold. October 2026 is undefeated."
+title: "27 Funniest Celebrity Tweets From October 2026 That Broke the Internet"
+description: "Britney Spears called herself a prophecy, Kylie wore a $50M bra, Tiffany Haddish applied to TSA while on hold — the best celebrity tweets of October 2026."
 pubDate: "2026-10-20"
 category: "Drama"
-tags: ["celebrity tweets", "funny tweets", "viral tweets", "october 2026", "celebrity drama", "weekly roundup"]
+tags: ["celebrity tweets October 2026", "funny celebrity tweets", "viral tweets 2026", "Britney Spears tweet", "TiffanyHaddish", "KylieJenner", "celebrity twitter", "best tweets this week"]
 image: "/images/weekly-tweets-oct20-2026.jpg"
 ---
 

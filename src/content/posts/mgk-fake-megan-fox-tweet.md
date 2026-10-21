@@ -1,9 +1,9 @@
 ---
-title: "MGK's Fake 'I Fumbled Megan Fox' Tweet Had the Internet in a Chokehold"
-description: "A fake tweet claiming MGK was crying over losing Megan Fox went mega-viral. His actual response? Even better than the fake one."
+title: "MGK's Fake "I Fumbled Megan Fox" Tweet: What He Actually Said"
+description: "A fake MGK tweet about fumbling Megan Fox went mega-viral. Machine Gun Kelly's real response was even better than the fake."
 pubDate: "2026-10-15"
 category: "Shade"
-tags: ["MGK", "MeganFox", "MachinGunKelly", "celebrity", "fakenews", "twitter"]
+tags: ["MGK", "MeganFox", "Machine Gun Kelly", "MGK Megan Fox breakup", "celebrity fake tweet", "machine gun kelly tweet", "megan fox 2026"]
 image: "/images/mgk-megan-fox.jpg"
 ---
 

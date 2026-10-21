@@ -1,9 +1,9 @@
 ---
-title: "Top 10 Most Viral Moments From the 2026 Victoria's Secret Fashion Show"
-description: "Kylie in a $50M bra, Megan Thee Stallion living out a 15-year-old tweet, and a country singer nearly taking out a model with her wings. The 2026 VS show delivered."
+title: "Victoria's Secret Fashion Show 2026: 10 Most Viral Moments Ranked"
+description: "Kylie Jenner in the $50M Fantasy Bra, Megan Thee Stallion's 2011 tweet coming true, Timothée Chalamet losing his mind — ranked."
 pubDate: "2026-10-20"
 category: "Drama"
-tags: ["VictoriasSecret", "VSFashionShow", "KylieJenner", "MeganTheeStallion", "BellaHadid", "TateMcRae", "JadeThirlwall", "celebrity", "fashion"]
+tags: ["VictoriasSecret", "VS Fashion Show 2026", "KylieJenner", "MeganTheeStallion", "Timothee Chalamet", "victoria secret 2026", "kylie jenner fantasy bra", "vs show viral"]
 image: "/images/vs-fashion-show-2026.jpg"
 featured: true
 ---
