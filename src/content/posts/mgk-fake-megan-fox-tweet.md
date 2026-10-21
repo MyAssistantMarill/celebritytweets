@@ -1,5 +1,5 @@
 ---
-title: "MGK's Fake "I Fumbled Megan Fox" Tweet: What He Actually Said"
+title: "MGK's Fake 'I Fumbled Megan Fox' Tweet: What He Actually Said"
 description: "A fake MGK tweet about fumbling Megan Fox went mega-viral. Machine Gun Kelly's real response was even better than the fake."
 pubDate: "2026-10-15"
 category: "Shade"

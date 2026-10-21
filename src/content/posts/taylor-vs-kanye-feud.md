@@ -1,6 +1,6 @@
 ---
 title: "Taylor Swift vs. Kanye West: The Complete Twitter Feud Timeline"
-description: "Taylor Swift vs Kanye West — from the 2009 VMAs diss to "Famous," the leaked call & beyond. Every tweet, every clap back, ranked."
+description: "Taylor Swift vs Kanye West — from the 2009 VMAs diss to Famous, the leaked call and beyond. Every tweet, every clap back, ranked."
 pubDate: "2026-10-14"
 category: "Feuds"
 tags: ["TaylorSwift", "KanyeWest", "celebrity feud", "twitter drama", "Famous", "VMAs 2009", "celebrity beef", "Kanye West tweet", "Taylor Swift drama"]
