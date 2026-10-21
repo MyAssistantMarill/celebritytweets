@@ -35,3 +35,5 @@ Neither artist has ever confirmed any of it is about the other. But why let fact
 ## The Verdict
 
 Charli was reacting to Nirvana. Dave Grohl was there. That's it. That's the tweet. Log off, hydrate, touch grass, and maybe watch the full clip next time before posting it with a very confident caption.
+
+*For a feud that actually lived up to the hype and has the receipts to prove it, see the [complete Taylor Swift vs. Kanye West Twitter feud timeline](/posts/taylor-vs-kanye-feud).*

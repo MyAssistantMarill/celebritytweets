@@ -156,3 +156,5 @@ She did exactly that. Manifest everything. 🙏
 ---
 
 The 2026 VS Fashion Show delivered. Same time next year?
+
+*Want more of this week's celebrity chaos? Check out the [27 funniest celebrity tweets from October 2026](/posts/funniest-celebrity-tweets-october-2026) that had everyone screaming.*

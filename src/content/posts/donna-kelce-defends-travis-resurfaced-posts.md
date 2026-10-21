@@ -1,6 +1,6 @@
 ---
-title: "Donna Kelce Defends Travis After Old Posts Resurface on Twitter"
-description: "Travis Kelce liked Shane Gillis's SNL monologue and old posts came back to haunt him. Mama Kelce stepped in fast."
+title: "Donna Kelce Defends Travis Kelce After Old Tweets Go Viral on Twitter"
+description: "Travis Kelce liked Shane Gillis's SNL monologue and old tweets went viral. Mama Kelce stepped in — and what she said was peak Donna."
 pubDate: "2026-10-19"
 category: "Drama"
 tags: ["TravisKelce", "DonnaKelce", "travis kelce twitter", "ShaneGillis", "SNL 2026", "taylor swift travis kelce", "celebrity drama 2026"]

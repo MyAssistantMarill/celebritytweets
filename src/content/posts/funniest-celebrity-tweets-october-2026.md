@@ -340,3 +340,5 @@ Same. We are the same.
 ---
 
 Which tweet won the week for you? Drop it in the comments 👇 and come back tomorrow for more tea. ☕
+
+*Missed the show that dominated all these timelines? Get the full breakdown: [Victoria's Secret Fashion Show 2026 — 10 most viral moments, ranked](/posts/top-10-viral-moments-vs-fashion-show-2026).*

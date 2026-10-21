@@ -639,3 +639,5 @@ Reader, she married Justin Bieber in 2018. And then again in 2019. The girl who 
 ---
 
 *Did your jaw hit the floor? Share this with someone who needs to see entry #1 immediately.* 👇
+
+*Speaking of Twitter receipts — the [Taylor Swift vs. Kanye West feud timeline](/posts/taylor-vs-kanye-feud) has every tweet, every clap back, fully documented.*
