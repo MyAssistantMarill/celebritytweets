@@ -39,3 +39,5 @@ Reactions were split. Some took Donna's word immediately — after all, she'd kn
 This whole situation is a masterclass in how one celebrity interaction — a simple *like* on a video — can spiral into a full excavation of someone's digital past within 48 hours. The internet never forgets, never sleeps, and will absolutely go digging the moment it smells something.
 
 Whether those posts are his or not, Travis might want to be a little more careful with that like button going forward. Just a thought.
+
+*The internet's obsession with digging up old posts cuts both ways — see [32 celebrity tweets that aged horribly](/posts/celebrity-tweets-aged-badly-2026) for more receipts the internet never let go.*

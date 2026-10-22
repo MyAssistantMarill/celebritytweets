@@ -1,5 +1,5 @@
 ---
-title: 'Joy Behar Called Past View Co-Hosts Mean Girls and Meghan McCains Response Was Something Else'
+title: "Joy Behar Called View Co-Hosts 'Mean Girls' — Meghan McCain's Tweet Response Was Ice Cold"
 description: 'Joy Behar dropped the mean girls bombshell in Vulture. Meghan McCain fired back with a response that hit way harder than it looked.'
 pubDate: '2026-10-21'
 category: 'Feuds'
@@ -46,3 +46,5 @@ Behar also made clear that the current panel is a different vibe entirely: "This
 McCain did not revisit the specifics of their clashes in her reply, and Behar has not publicly responded to the response. The feud, as is tradition with *The View*, will simply keep generating content until someone blinks — or writes a book.
 
 Neither of them seems close to blinking.
+
+*For another on-screen personality who learned the hard way that posting about co-star drama rarely ends well, see [Val Chmerkovskiy's DWTS tweet that earned him a very public apology](/posts/val-chmerkovskiy-will-smith-apology-dwts).*

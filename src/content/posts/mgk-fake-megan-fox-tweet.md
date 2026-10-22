@@ -46,3 +46,5 @@ MGK and Megan Fox split in December 2024 after a turbulent engagement. In March 
 The fake tweet was so convincing because it *felt* true to the vibe of the situation. But MGK's response reminded everyone that he is, above all else, a chaos agent who will not be playing the heartbroken ex role for anyone. 
 
 Respect, honestly.
+
+*Fake tweets are just the tip of the iceberg — see [32 real celebrity tweets that aged horribly](/posts/celebrity-tweets-aged-badly-2026) for posts nobody can take back.*

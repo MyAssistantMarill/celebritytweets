@@ -39,3 +39,5 @@ The tweet hit **46 million views** and counting. The store briefly upped Molly's
 Did Kelly Clarkson need to tweet about this? Absolutely not. Did we need this beef in our lives? *Absolutely yes.* It's low-stakes, it's funny, and it gave us the phrase "asymmetrical social warfare" which we will be using forever. 
 
 Molly the bird remains unbought. The internet remains chaotic. Kelly remains iconic.
+
+*Want more October celebrity Twitter chaos? The [27 funniest celebrity tweets this month](/posts/funniest-celebrity-tweets-october-2026) are ranked and ready.*

@@ -3,7 +3,7 @@ title: 'Kim Kardashian Is North West for Halloween and the Internet Has Complete
 description: 'Kim K went full North West — blue wig, goth grills, piercings — and fans spent a full minute trying to figure out who they were looking at.'
 pubDate: '2026-10-21'
 category: 'Drama'
-tags: ['Kim Kardashian', 'North West', 'Halloween 2026', 'Kardashians', 'celebrity news']
+tags: ['Kim Kardashian', 'North West', 'Halloween 2026', 'Kardashians', 'celebrity news', 'kim kardashian tweet', 'viral tweet', 'North West gothic style', 'celebrity halloween 2026']
 image: '/images/kim-north-halloween-2026-10-21.jpg'
 ---
 
@@ -108,3 +108,5 @@ Two million likes vs. a handful of hot takes. The scoreboard is not close.
 Whether you think it's a mom-of-the-year moment or the most elaborate clout grab in Halloween history, you cannot deny the woman committed. The matching nail art alone deserves an Oscar. North reportedly has no plans to dress as Kim in return — but honestly, at this point, the bar has been set.
 
 Happy birthday, Kim. Nobody does Halloween like you.
+
+*Kim wasn't the only one breaking the internet this week — see the [27 funniest celebrity tweets from October 2026](/posts/funniest-celebrity-tweets-october-2026) for the full rundown.*

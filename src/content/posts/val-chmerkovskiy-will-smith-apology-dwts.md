@@ -43,3 +43,5 @@ Val knows his audience — DWTS fans are passionate, Carrie Ann Inaba has been o
 DWTS fans are forgiving but they have long memories. Val is one of the most popular pros in the show's history, and the apology was swift enough that this probably won't follow him too far. Carrie Ann has yet to publicly respond, which is either grace or the kind of silence that speaks volumes. 
 
 We're going with *volumes*.
+
+*Reality TV drama is never isolated — over at *The View*, Joy Behar dropped a "mean girls" bombshell that set off its own celebrity Twitter chain reaction. [Read the full story here.](/posts/joy-behar-meghan-mccain-mean-girls-view-2026-10-21)*

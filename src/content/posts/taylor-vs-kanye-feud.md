@@ -40,3 +40,5 @@ Since then, Taylor released *Reputation* — widely seen as her response album �
 Love them or hate them, Taylor and Kanye's feud defined an era of celebrity social media drama. It showed just how powerful — and destructive — Twitter could be when two of the world's biggest stars go to war on it.
 
 What do you think — who was in the right? Drop your take in the comments below. 👇
+
+*Not every Taylor-era internet moment was this clear-cut — see how [Charli XCX's viral VMAs 'side-eye' was completely misread](/posts/charli-xcx-vmas-side-eye-not-taylor-swift) before everyone piled on.*
