@@ -1,0 +1,203 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const today = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<BaseLayout
+  title="Privacy Policy"
+  description="CelebrityTweets privacy policy — how we collect data, use cookies, serve ads via Google AdSense, and how you can manage your preferences."
+>
+  <article class="policy-page">
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective date: {today}</p>
+
+    <p class="lead">
+      CelebrityTweets.com (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) respects your privacy. This page explains what data we
+      collect, how it&rsquo;s used, and what choices you have. We&rsquo;ve written it in plain English — no legalese walls.
+    </p>
+
+    <h2>1. What We Collect</h2>
+    <p>We don&rsquo;t ask you to create an account or hand over personal details to read our site. However, like most websites, some data is collected automatically:</p>
+    <ul>
+      <li><strong>Usage data</strong> — pages visited, time on site, browser type, device type, and referring URL. This comes via Google Analytics (GA4).</li>
+      <li><strong>Cookies</strong> — small text files stored in your browser. We use first-party analytics cookies and third-party advertising cookies (details below).</li>
+      <li><strong>IP address</strong> — collected briefly by our hosting provider (Netlify) and analytics tools for geographic reporting; not stored by us directly.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect names, email addresses, or payment information unless you contact us voluntarily.</p>
+
+    <h2>2. Google Analytics (GA4)</h2>
+    <p>
+      We use <strong>Google Analytics 4</strong> (tag: <code>G-2SVEC2BW58</code>) to understand how visitors use the site — which articles are popular,
+      where traffic comes from, and how the site performs. This data is aggregated and anonymised.
+    </p>
+    <p>
+      Google Analytics sets cookies to distinguish unique visitors and sessions. You can opt out by installing the
+      <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics Opt-out Browser Add-on</a>.
+    </p>
+    <p>
+      Google&rsquo;s privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">policies.google.com/privacy</a>
+    </p>
+
+    <h2>3. Google AdSense &amp; Advertising Cookies</h2>
+    <p>
+      We display ads served by <strong>Google AdSense</strong> (publisher ID: <code>ca-pub-4883779928557310</code>). Google and its partners use cookies
+      to show you ads based on your prior visits to this site and other sites across the web. This is called <em>interest-based</em> or <em>personalised</em> advertising.
+    </p>
+    <p>
+      These advertising cookies track browsing behaviour across websites. Google uses the <strong>DoubleClick cookie</strong> (among others) to serve ads
+      and measure their effectiveness.
+    </p>
+    <p><strong>Your ad choices:</strong></p>
+    <ul>
+      <li>Opt out of personalised ads from Google: <a href="https://adssettings.google.com" target="_blank" rel="noopener noreferrer">Google Ad Settings</a></li>
+      <li>Opt out of interest-based ads from Network Advertising Initiative members: <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener noreferrer">NAI Opt-Out</a></li>
+      <li>Opt out via the Digital Advertising Alliance: <a href="https://optout.aboutads.info/" target="_blank" rel="noopener noreferrer">AboutAds.info</a></li>
+    </ul>
+    <p>
+      Opting out of personalised ads doesn&rsquo;t remove ads entirely — you&rsquo;ll just see non-personalised ads instead.
+    </p>
+
+    <h2>4. How We Use Cookies</h2>
+    <div class="cookie-table-wrap">
+      <table class="cookie-table">
+        <thead>
+          <tr><th>Cookie</th><th>Provider</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>_ga, _ga_*</td><td>Google Analytics</td><td>Distinguish visitors, session tracking</td></tr>
+          <tr><td>_gid</td><td>Google Analytics</td><td>Session identifier (expires 24 h)</td></tr>
+          <tr><td>IDE, DSID</td><td>Google DoubleClick</td><td>Ad personalisation and measurement</td></tr>
+          <tr><td>test_cookie</td><td>Google</td><td>Checks browser cookie support</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>You can manage or delete cookies via your browser settings. Note that disabling cookies may affect site functionality.</p>
+
+    <h2>5. Third-Party Content &amp; Links</h2>
+    <p>
+      CelebrityTweets embeds public tweets using official X/Twitter embed codes. X (Twitter) may set its own cookies when you interact with embedded content.
+      See <a href="https://twitter.com/en/privacy" target="_blank" rel="noopener noreferrer">X&rsquo;s Privacy Policy</a> for details.
+    </p>
+    <p>
+      We may link to external sites. We are not responsible for the privacy practices or content of those sites — please review their policies directly.
+    </p>
+
+    <h2>6. Data Sharing</h2>
+    <p>
+      We do <strong>not</strong> sell your personal data. Data collected via Google Analytics and AdSense is processed by Google under their own privacy terms.
+      We do not share data with any other third parties.
+    </p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on where you live, you may have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you</li>
+      <li>Request deletion of your data</li>
+      <li>Opt out of personalised advertising (see Section 3)</li>
+      <li>Disable analytics tracking (see Section 2)</li>
+    </ul>
+    <p>To exercise any of these rights, <a href="/contact">contact us</a>.</p>
+
+    <h2>8. Children&rsquo;s Privacy</h2>
+    <p>
+      CelebrityTweets is not directed at children under 13. We do not knowingly collect personal data from children. If you believe a child has
+      submitted information, please contact us immediately.
+    </p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this policy from time to time. When we do, the &ldquo;Effective date&rdquo; at the top will change. We won&rsquo;t notify
+      you individually, so check back if you&rsquo;re curious.
+    </p>
+
+    <h2>10. Contact</h2>
+    <p>
+      Questions about this policy? Email us at&nbsp;
+      <a href="mailto:myassistantmarill@gmail.com">myassistantmarill@gmail.com</a> or use our <a href="/contact">contact form</a>.
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .policy-page {
+    max-width: 740px;
+    margin: 2.5rem auto;
+    padding: 0 1rem;
+  }
+  .policy-page h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+    color: var(--ink);
+  }
+  .effective-date {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-bottom: 1.75rem;
+  }
+  .policy-page h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 2.25rem 0 0.75rem;
+    color: var(--blue-dark);
+    border-left: 3px solid var(--red);
+    padding-left: 0.75rem;
+  }
+  .policy-page p, .policy-page li {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.85rem;
+    color: var(--text);
+  }
+  .policy-page ul {
+    padding-left: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .policy-page li { margin-bottom: 0.4rem; }
+  .policy-page a { color: var(--blue-dark); text-decoration: underline; }
+  .policy-page a:hover { color: var(--blue-mid); }
+  .policy-page code {
+    background: #f0f0f0;
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+    font-size: 0.88em;
+  }
+  .lead {
+    font-size: 1.05rem;
+    color: #444;
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    background: #f4f6f9;
+    border-radius: 8px;
+    border-left: 4px solid var(--blue);
+    line-height: 1.75;
+  }
+  .cookie-table-wrap {
+    overflow-x: auto;
+    margin: 0.5rem 0 1.25rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+  }
+  .cookie-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+  }
+  .cookie-table th {
+    background: var(--ink);
+    color: rgba(255,255,255,0.85);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.65rem 1rem;
+  }
+  .cookie-table td {
+    padding: 0.55rem 1rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+  .cookie-table tr:last-child td { border-bottom: none; }
+  .cookie-table tr:nth-child(even) td { background: #f8f9fa; }
+</style>
